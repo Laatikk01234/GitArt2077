@@ -367,6 +367,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5f5802737ac46ac43976ad16134a2acc,
         type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: The artist is known for making references to historical events. This
+        is a contemporary piece resembling iconic everyday objects that were used
+        to combat the great pandemic of 2020. Many experts think that the spirals
+        created by the paper rolls resemble life itself.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -536,6 +549,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37aebf36d3db5064f96c282b723a530b,
         type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: 'A photograph from a long-running social media service. It shows an
+        alluringly (un)dressed woman posing in front of a bathroom mirror. It was
+        the most popular picture on the platform in 2076. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -697,6 +722,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
         type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: "The artist creates paintings that show our age\u2019s greatest inventions.
+        This is a portrayal of a race in the skies over Tokyo. The use of lighting
+        creates a realistic but exciting atmosphere, one that is typical to a night
+        out in a megacity."
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2956,6 +2994,14 @@ PrefabInstance:
       propertyPath: professorAnswers.Array.data[0]
       value: Priceless artifact
       objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: The artist is known for making thoughtful contemporary art. This artwork
+        has been inspired by a famous piece from 2019. The use of three dimensions
+        brings depth to the painting. The use of duct tape adds great meaning to
+        the piece.
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3280,7 +3326,9 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: Mona lisa is sexy beast
+      value: The artist is not very well known. This piece is a portrait showing
+        a woman with a mysterious smile. The thoughtful use of colors gives a natural
+        feel to the artwork.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3310,7 +3358,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
