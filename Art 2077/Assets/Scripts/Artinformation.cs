@@ -6,8 +6,13 @@ public class Artinformation : MonoBehaviour
 {
     public Sprite Picture;
     public int pictureValue;
-    public List<string> traineeAnswers;
-    public List<string> professorAnswers;
+    public string traineeSays;
+    public string correct;
+    public string tooLow;
+    public string notFake;
+    public string itsFake;
+    public string tooHigh;
+
     // miten vastauksia?
 
     // Start is called before the first frame update
