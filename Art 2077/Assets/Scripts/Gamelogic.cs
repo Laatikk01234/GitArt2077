@@ -104,7 +104,7 @@ public class Gamelogic : MonoBehaviour
             traineeText.text = currentArtinformation.traineeSays;
             buttonText.text = "Submit";
         }
-        else if (buttonText.text == "Submit")
+        else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value")
         {
             DailyGradeAndResponse();
             buttonText.text = "Next";
@@ -145,11 +145,12 @@ public class Gamelogic : MonoBehaviour
 
     private void NextPainting()
     {
+        currentArtinformation = art[listIndexAndDay].GetComponent<Artinformation>();
         currentPicture.sprite = currentArtinformation.picture;
         traineeText.text = currentArtinformation.traineeSays;
         professorText.text = "Lets value some art!";
         artValueSlider.value = 250;
-        sliderValueText.text = "Choose art Value";
+        sliderValueText.text = "Choose art value";
         buttonText.text = "Submit";
     }
 
