@@ -4,14 +4,23 @@ using UnityEngine;
 
 public class Artinformation : MonoBehaviour
 {
-    public Sprite Picture;
+    public Sprite picture;
+    public string artName;
     public int pictureValue;
     public string traineeSays;
     public string correct;
-    public string tooLow;
     public string notFake;
     public string itsFake;
+    public string tooLow;
+    public string wayTooLow;
     public string tooHigh;
+    public string wayTooHigh;
+
+    public Sprite Picture
+    {
+        get { return picture; }
+        set => picture = value;
+    }
 
     // miten vastauksia?
 
