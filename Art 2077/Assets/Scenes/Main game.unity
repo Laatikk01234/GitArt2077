@@ -393,6 +393,42 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5f5802737ac46ac43976ad16134a2acc,
         type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: '[Correct]Ah yes, this is very valuabel indeed'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: '[Not Fake]what this toliet paper is so real someone tried to steal
+        it in 2020'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: '[Its Fake]how dare you question the genuinity of this masterpiece'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: '[Too Low]you priced too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: '[Way Too low]you priced waaay too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: '[Too High]you priced too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: '[Way Too High]you priced waaaay too high'
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -585,6 +621,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 37aebf36d3db5064f96c282b723a530b,
         type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: '[Correct]Yes its cheap I hate people'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: '[Its Fake]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: '[Too Low]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: '[way too low]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: '[too high]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: '[way too high]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: '[Not Fake]what, this is genuine you uncultured person'
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -765,6 +836,42 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
         type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: '[Correct]Yes, I agree, mediocre at best, such a mundane view'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: '[Its Fake]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: '[Too Low]you priced a bit low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: '[Way Too Low]you priced way too low '
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: '[Too High]you priced too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: '[Way Too High]you priced way too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: '[Not Fake]why but this is a genuine depiction of out everyday life,
+        whats wrong with you'
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3312,6 +3419,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 42114c02a2e813446b2da2d8c0533c5b,
         type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: '[Way Too High]you priced waaaay too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: '[Too high]you priced too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: '[Way Too Low]you priced waaaay too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: '[Too Low]you priced too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: '[Its Fake]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: '[COrrect]Correct, its a pretty expensive avocado'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: This avocado is a genuine piece of fruit taped to a wall, cant you see
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3479,6 +3621,42 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
         type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: '[Its Fake]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: '[Too Low]you priced too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: '[Way Too Low]you priced waaayy too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: '[Too High]you priced too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: '[Way Too High]you priced waaaay too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: '[Not Fake]not much fake in this, its almost a photo of the view out
+        of our window!'
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3748,27 +3926,27 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: 
+      value: ..
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Yes it is fake
+      value: '[Correct]Yes its fake'
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: 
+      value: '[NotFake]'
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: The painting is fake you dumbass
+      value: '[Its Fake]The painting is fake you dumbass'
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: 
+      value: ..
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3792,6 +3970,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f0f0f8278437372498015e4df8209c6e,
         type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: ..
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: ..
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
