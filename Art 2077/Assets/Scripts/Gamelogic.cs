@@ -108,7 +108,6 @@ public class Gamelogic : MonoBehaviour
         }
         else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value")
         {
-            Debug.Log("Do we grade?");
             DailyGradeAndResponse();
             buttonText.text = "Next";
         }
