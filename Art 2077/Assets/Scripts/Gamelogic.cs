@@ -96,16 +96,19 @@ public class Gamelogic : MonoBehaviour
 
         //initial value is start -> changed to submit when art is given -> changed to next after confirm
         // changed to submit after clicking next, changed to start at the change of week?
-        currentArtinformation = art[listIndexAndDay].GetComponent<Artinformation>();
-
+        //currentArtinformation = art[listIndexAndDay].GetComponent<Artinformation>();
+        //NextPainting();
         if (buttonText.text == "Start")
         {
-            currentPicture.sprite = currentArtinformation.picture;
-            traineeText.text = currentArtinformation.traineeSays;
-            buttonText.text = "Submit";
+            //currentPicture.sprite = currentArtinformation.picture;
+            //traineeText.text = currentArtinformation.traineeSays;
+            //buttonText.text = "Submit";
+
+            NextPainting();
         }
         else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value")
         {
+            Debug.Log("Do we grade?");
             DailyGradeAndResponse();
             buttonText.text = "Next";
         }
@@ -145,6 +148,7 @@ public class Gamelogic : MonoBehaviour
 
     private void NextPainting()
     {
+        
         currentArtinformation = art[listIndexAndDay].GetComponent<Artinformation>();
         currentPicture.sprite = currentArtinformation.picture;
         traineeText.text = currentArtinformation.traineeSays;
@@ -157,6 +161,7 @@ public class Gamelogic : MonoBehaviour
 
     private void DailyGradeAndResponse()
     {
+        //Debug.Log();
         // A = 10, B = 8, C = 6, D = 4, F = 2;
         // max 2p per answer, min 0
         int picVal = currentArtinformation.pictureValue;
@@ -190,7 +195,7 @@ public class Gamelogic : MonoBehaviour
                 professorText.text = currentArtinformation.tooLow;
                 dailyGrade = 1;
             }
-            else if (picVal < expensive)
+            else if (picVal <= expensive)
             {
                 professorText.text = currentArtinformation.wayTooLow;
                 dailyGrade = 0;
@@ -213,7 +218,7 @@ public class Gamelogic : MonoBehaviour
                 professorText.text = currentArtinformation.correct;
                 dailyGrade = 2;
             }
-            else if (picVal < expensive)
+            else if (picVal <= expensive)
             {
                 professorText.text = currentArtinformation.tooLow;
                 dailyGrade = 1;
@@ -236,7 +241,7 @@ public class Gamelogic : MonoBehaviour
                 professorText.text = currentArtinformation.tooHigh;
                 dailyGrade = 1;
             }
-            else if (picVal < expensive)
+            else if (picVal <= expensive)
             {
                 professorText.text = currentArtinformation.correct;
                 dailyGrade = 2;
@@ -289,19 +294,19 @@ public class Gamelogic : MonoBehaviour
         {
             grade = 'A';
         }
-        else if (totalGrade > 8)
+        else if (weeklyGrade[week] > 8)
         {
             grade = 'B';
         }
-        else if (totalGrade > 6)
+        else if (weeklyGrade[week] > 6)
         {
             grade = 'C';
         }
-        else if (totalGrade > 4)
+        else if (weeklyGrade[week] > 4)
         {
             grade = 'D';
         }
-        else if (totalGrade > 2)
+        else if (weeklyGrade[week] > 2)
         {
             grade = 'F';
         }
