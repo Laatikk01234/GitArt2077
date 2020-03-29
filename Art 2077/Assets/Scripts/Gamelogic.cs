@@ -7,6 +7,12 @@ using UnityEngine.UI;
 
 public class Gamelogic : MonoBehaviour
 {
+
+    //Andrea messing up
+    public GameObject curtainsObject;
+    Animator anim;
+    //Andrea messing up end
+
     public List<GameObject> art;
     public GameObject artLocation;
     private SpriteRenderer currentPicture;
@@ -51,6 +57,12 @@ public class Gamelogic : MonoBehaviour
 
     public void Start()
     {
+        // Andrea messing up 
+        anim = curtainsObject.GetComponent<Animator>();
+        anim.ResetTrigger("ClickNext");
+        // Andrea messing up end
+        
+        
         // how to introduce the game screen might go here?
         feedbackBubble.SetActive(false);
         feedbackBubbleText = feedbackBubble.GetComponentInChildren<TextMeshPro>();
@@ -105,6 +117,7 @@ public class Gamelogic : MonoBehaviour
             //buttonText.text = "Submit";
 
             NextPainting();
+
         }
         else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value")
         {
@@ -138,6 +151,10 @@ public class Gamelogic : MonoBehaviour
             else
             {
                 NextPainting();
+
+                //Andrea messing up
+                anim.SetTrigger("ClickNext");
+                //Andrea messing up end
             }
         }
 
