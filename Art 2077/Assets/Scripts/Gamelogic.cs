@@ -17,6 +17,7 @@ public class Gamelogic : MonoBehaviour
     public GameObject artLocation;
     private SpriteRenderer currentPicture;
     private int listIndexAndDay = 0;
+
     private Artinformation currentArtinformation;
 
     private int dailyGrade = 0;
@@ -59,7 +60,7 @@ public class Gamelogic : MonoBehaviour
     {
         // Andrea messing up 
         anim = curtainsObject.GetComponent<Animator>();
-        anim.ResetTrigger("ClickNext");
+        //anim.ResetTrigger("ClickNext");
         // Andrea messing up end
         
         
