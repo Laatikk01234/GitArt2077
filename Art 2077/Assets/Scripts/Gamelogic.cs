@@ -60,7 +60,6 @@ public class Gamelogic : MonoBehaviour
     {
         // Andrea messing up 
         anim = curtainsObject.GetComponent<Animator>();
-        //anim.ResetTrigger("ClickNext");
         // Andrea messing up end
         
         
