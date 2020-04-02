@@ -139,10 +139,9 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: "The artist creates paintings that show our age\u2019s greatest inventions.
-        This is a portrayal of a race in the skies over Tokyo. The use of lighting
-        creates a realistic but exciting atmosphere, one that is typical to a night
-        out in a megacity."
+      value: The artist creates paintings of space and everything related to it.
+        This is a majestic landscape of the first colony on Mars. It represents the
+        hope of creating pleasant living spaces for humanity across the galaxy.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -158,38 +157,42 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      value: Correct. Mediocre price for a mediocre painting. Well, money is money.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: '[Too Low]you priced too low'
+      value: No, no, no. We have to make a living somehow!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: '[Way Too Low]you priced waaayy too low'
+      value: No, no, no. We have to make a living somehow!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: '[Too High]you priced too high'
+      value: "Do you see something in this that I don\u2019t?"
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: '[Way Too High]you priced waaaay too high'
+      value: "Do you see something in this that I don\u2019t?"
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: '[Not Fake]not much fake in this, its almost a photo of the view out
-        of our window!'
+      value: What a bold claim! And incorrect, too!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Prometheus Station
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -392,15 +395,15 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: "The artist creates paintings that show our age\u2019s greatest inventions.
-        This is a portrayal of a race in the skies over Tokyo. The use of lighting
-        creates a realistic but exciting atmosphere, one that is typical to a night
-        out in a megacity."
+      value: The artist is known for making references to historical events. This
+        is a contemporary piece resembling iconic everyday objects that were used
+        to combat the great pandemic of 2020. Many experts think that the spirals
+        created by the paper rolls resemble life itself.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 250
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -411,38 +414,45 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      value: "That\u2019s the same price I was thinking of! Good job. These kinds
+        of pieces line up an auctioneer's pockets nicely."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: '[Too Low]you priced too low'
+      value: "Can\u2019t you see this is high art? You'll lose a lot of money in
+        this career if you don't get that modest head of yours fixed."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: '[Way Too Low]you priced waaayy too low'
+      value: "Can\u2019t you see this is high art? You'll lose a lot of money in
+        this career if you don't get that modest head of yours fixed."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: '[Too High]you priced too high'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: '[Way Too High]you priced waaaay too high'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: '[Not Fake]not much fake in this, its almost a photo of the view out
-        of our window!'
+      value: "That\u2019s slander! Be more careful!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: PANDEMICDESTROYER 9000
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -604,10 +614,10 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: The artist is known for making references to historical events. This
-        is a contemporary piece resembling iconic everyday objects that were used
-        to combat the great pandemic of 2020. Many experts think that the spirals
-        created by the paper rolls resemble life itself.
+      value: 'The artist is known for making thoughtful contemporary art. This artwork
+        has been inspired by a famous piece from 2019. The use of three dimensions
+        brings depth to the painting. The use of duct tape adds great meaning to
+        the piece. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -617,7 +627,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Tp on siististiCool
+      value: Guacamole
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -628,38 +638,40 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[Correct]Ah yes, this is very valuabel indeed'
+      value: "That\u2019s the same price I was thinking of! Good job. These kinds
+        of pieces line up an auctioneer's pockets nicely."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: '[Not Fake]what this toliet paper is so real someone tried to steal
-        it in 2020'
+      value: "That\u2019s slander! Be more careful!"
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]how dare you question the genuinity of this masterpiece'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: '[Too Low]you priced too low'
+      value: "Can\u2019t you see this is high art? You'll lose a lot of money in
+        this career if you don't get that modest head of yours fixed."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: '[Way Too low]you priced waaay too low'
+      value: "Can\u2019t you see this is high art? You'll lose a lot of money in
+        this career if you don't get that modest head of yours fixed."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: '[Too High]you priced too high'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: '[Way Too High]you priced waaaay too high'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -833,19 +845,19 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'A photograph from a long-running social media service. It shows an
-        alluringly (un)dressed woman posing in front of a bathroom mirror. It was
-        the most popular picture on the platform in 2076. '
+      value: 'The artist is not very well known. This piece is a portrait showing
+        a woman with a mysterious smile. The thoughtful use of colors gives a natural
+        feel to the artwork. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: followme
+      value: 'Mono Lizzie '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -856,37 +868,39 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[Correct]Yes its cheap I hate people'
+      value: Well spotted! But that was obvious, yes?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]'
+      value: We can't just go around selling fakes, can we?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: '[Too Low]'
+      value: Well, this is certainly a cheap piece. In fact, it's a fake.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: '[way too low]'
+      value: Well, this is certainly a cheap piece. In fact, it's a fake.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: '[too high]'
+      value: Look, selling fakes for that much would certainly be profitable, but
+        that's not something we do.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: '[way too high]'
+      value: Look, selling fakes for that much would certainly be profitable, but
+        that's not something we do.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: '[Not Fake]what, this is genuine you uncultured person'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1052,10 +1066,10 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: "The artist creates paintings that show our age\u2019s greatest inventions.
-        This is a portrayal of a race in the skies over Tokyo. The use of lighting
-        creates a realistic but exciting atmosphere, one that is typical to a night
-        out in a megacity."
+      value: "The artist prefers showcasing our artificial brethren, and this is
+        her most well-known work. There\u2019s an immaculately portrayed hand of
+        an android that\u2019s being built. This is another common event, something
+        you can see on the TV every day. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1071,38 +1085,42 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[Correct]Yes, I agree, mediocre at best, such a mundane view'
+      value: Correct. Mediocre price for a mediocre painting. Well, money is money.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: '[Too Low]you priced a bit low'
+      value: No, no, no. We have to make a living somehow!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: '[Way Too Low]you priced way too low '
+      value: No, no, no. We have to make a living somehow!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: '[Too High]you priced too high'
+      value: "Do you see something in this that I don\u2019t?"
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: '[Way Too High]you priced way too high'
+      value: "Do you see something in this that I don\u2019t?"
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: '[Not Fake]why but this is a genuine depiction of out everyday life,
-        whats wrong with you'
+      value: What a bold claim! And incorrect, too!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: The Birth of a People
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2929,15 +2947,14 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: "The artist creates paintings that show our age\u2019s greatest inventions.
-        This is a portrayal of a race in the skies over Tokyo. The use of lighting
-        creates a realistic but exciting atmosphere, one that is typical to a night
-        out in a megacity."
+      value: 'The artist creates topical art. Here we see a human and a robot getting
+        married. This was a great victory for both lifeforms last year. The bride
+        looks very happy. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 250
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2948,38 +2965,43 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      value: "Yes, that\u2019s about right. Even if it'd be nice to get more cash,
+        no one wants to see this on their wall."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: '[Too Low]you priced too low'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: '[Way Too Low]you priced waaayy too low'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: '[Too High]you priced too high'
+      value: I love money too, but no one's going to buy this for that much!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: '[Way Too High]you priced waaaay too high'
+      value: I love money too, but no one's going to buy this for that much!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: '[Not Fake]not much fake in this, its almost a photo of the view out
-        of our window!'
+      value: Stop being so paranoid!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Joy Between Species
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3221,10 +3243,9 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: "The artist creates paintings that show our age\u2019s greatest inventions.
-        This is a portrayal of a race in the skies over Tokyo. The use of lighting
-        creates a realistic but exciting atmosphere, one that is typical to a night
-        out in a megacity."
+      value: The artist prefers portraying technology that is made for personal everyday
+        use. Here we see a portrait of a person mesmerized by virtual reality. Space
+        in the background resembles the unlimited possibilities of virtual worlds.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3240,38 +3261,43 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      value: "Yes, that\u2019s about right. Even if it'd be nice to get more cash,
+        no one wants to see this on their wall."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: '[Too Low]you priced too low'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: '[Way Too Low]you priced waaayy too low'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: '[Too High]you priced too high'
+      value: I love money too, but no one's going to buy this for that much!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: '[Way Too High]you priced waaaay too high'
+      value: I love money too, but no one's going to buy this for that much!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: '[Not Fake]not much fake in this, its almost a photo of the view out
-        of our window!'
+      value: Stop being so paranoid!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Immersion
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3771,7 +3797,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 500
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3786,15 +3812,14 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: The artist is known for making thoughtful contemporary art. This artwork
-        has been inspired by a famous piece from 2019. The use of three dimensions
-        brings depth to the painting. The use of duct tape adds great meaning to
-        the piece.
+      value: A photograph from a long-running social media service. It shows an alluringly
+        (un)dressed woman posing in front of a bathroom mirror. It was the most popular
+        picture on the platform in 2076.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Guacamole
+      value: 'Follow Me '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3805,37 +3830,38 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: '[Way Too High]you priced waaaay too high'
+      value: Really? So much for THIS?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: '[Too high]you priced too high'
+      value: I love money too, but no one's going to buy this for that much!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: '[Way Too Low]you priced waaaay too low'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: '[Too Low]you priced too low'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[COrrect]Correct, its a pretty expensive avocado'
+      value: "Yes, that\u2019s about right. Even if it'd be nice to get more cash,
+        no one wants to see this on their wall."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: This avocado is a genuine piece of fruit taped to a wall, cant you see
+      value: Stop being so paranoid!
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3988,15 +4014,15 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: "The artist creates paintings that show our age\u2019s greatest inventions.
-        This is a portrayal of a race in the skies over Tokyo. The use of lighting
-        creates a realistic but exciting atmosphere, one that is typical to a night
-        out in a megacity."
+      value: "The artist has a track record of creating art in an old style. This
+        one is quite different from his other works, however. It\u2019s a landscape
+        with many bending objects scattered around. There\u2019s lots of time-related
+        symbolism in the picture."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 250
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4007,38 +4033,44 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      value: Well spotted! But that was obvious, yes?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]'
+      value: 'Come on, haven''t you seen this one somewhere else? It''s a '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: '[Too Low]you priced too low'
+      value: Well, this is certainly a cheap piece. In fact, it's a fake.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: '[Way Too Low]you priced waaayy too low'
+      value: Well, this is certainly a cheap piece. In fact, it's a fake.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: '[Too High]you priced too high'
+      value: Look, selling fakes for that much would certainly be profitable, but
+        that's not something we do.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: '[Way Too High]you priced waaaay too high'
+      value: Look, selling fakes for that much would certainly be profitable, but
+        that's not something we do.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: '[Not Fake]not much fake in this, its almost a photo of the view out
-        of our window!'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: The Persistence of Clocks
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4304,37 +4336,40 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: It is a mona lisa
+      value: "The artist creates paintings that show our age\u2019s greatest inventions.
+        This is a portrayal of a race in the skies over Tokyo. The use of lighting
+        creates a realistic but exciting atmosphere, one that is typical to a night
+        out in a megacity. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: ..
+      value: No, no, no. We have to make a living somehow!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: '[Correct]Yes its fake'
+      value: Correct. Mediocre price for a mediocre painting. Well, money is money.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: '[NotFake]'
+      value: What a bold claim! And incorrect, too!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: '[Its Fake]The painting is fake you dumbass'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: ..
+      value: Eh, that's a bit too much. There's nothing spectacular about this.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 0
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4345,7 +4380,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Muna lissa
+      value: Tokyo Drift
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4356,12 +4391,12 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: ..
+      value: "That low? I don\u2019t think so\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: ..
+      value: "Do you see something in this that I don\u2019t?"
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
