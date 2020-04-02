@@ -146,7 +146,7 @@ public class Gamelogic : MonoBehaviour
                 buttonText.text = "Ok";
                 //maybe position change - definitely slider away.
                 currentPicture.sprite = null;
-                GiveGrade();
+                GiveSubGrade();
             }
             else
             {
@@ -302,7 +302,7 @@ public class Gamelogic : MonoBehaviour
         feedbackBubbleText.text = "Your total grade is " + grade;
     }
 
-    private void GiveGrade()
+    private void GiveSubGrade()
     {
         SwitchSpeechBubbleVisibility();
         char grade;
