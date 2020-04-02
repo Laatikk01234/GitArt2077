@@ -133,7 +133,7 @@ public class Gamelogic : MonoBehaviour
                 //traineeText.text = currentArtinformation.traineeSays;
                 //buttonText.text = "Submit";
 
-
+                anim.SetBool("DayStarted", true);
 
                 NextPainting();
                 //curtains open
@@ -143,12 +143,14 @@ public class Gamelogic : MonoBehaviour
             {
                 DailyGradeAndResponse();
                 buttonText.text = "Next";
+                //anim.SetBool("DayStarted", false);
             }
             else if (buttonText.text == "Ok")
             {
                 buttonText.text = "Start";
                 SwitchSpeechBubbleVisibility();
                 NextPainting();
+                //anim.SetBool("DayStarted", false);
             }
             else if (buttonText.text == "Next")
             {
@@ -175,6 +177,7 @@ public class Gamelogic : MonoBehaviour
 
                     //Andrea messing up
                     anim.SetTrigger("ClickNext");
+                    anim.SetBool("DayStarted", false);
                     //Andrea messing up end
                     StartCoroutine(WaitAndNextPainting());
                     //curtains close
@@ -191,7 +194,7 @@ public class Gamelogic : MonoBehaviour
 
     private void NextPainting()
     {
-        
+        anim.SetBool("DayStarted", false);
         currentArtinformation = art[listIndexAndDay].GetComponent<Artinformation>();
         currentPicture.sprite = currentArtinformation.picture;
         traineeText.text = currentArtinformation.traineeSays;
