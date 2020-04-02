@@ -123,6 +123,136 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &40869782
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: "The artist creates paintings that show our age\u2019s greatest inventions.
+        This is a portrayal of a race in the skies over Tokyo. The use of lighting
+        creates a realistic but exciting atmosphere, one that is typical to a night
+        out in a megacity."
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 7531bada5cbd8a143b87d0eae8fc9da3,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: '[Its Fake]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: '[Too Low]you priced too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: '[Way Too Low]you priced waaayy too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: '[Too High]you priced too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: '[Way Too High]you priced waaaay too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: '[Not Fake]not much fake in this, its almost a photo of the view out
+        of our window!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1 &68563744
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,6 +286,10 @@ Transform:
   - {fileID: 199099886}
   - {fileID: 378003490}
   - {fileID: 2012888460}
+  - {fileID: 1457065638}
+  - {fileID: 1239374501}
+  - {fileID: 1511215838}
+  - {fileID: 693514503}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -184,8 +318,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93641170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.91, y: 2.33, z: 0.01}
-  m_LocalScale: {x: 1.011, y: 1.038, z: 1}
+  m_LocalPosition: {x: 11.94, y: 2.44, z: 0.01}
+  m_LocalScale: {x: 0.974604, y: 1.0006319, z: 0.964}
   m_Children:
   - {fileID: 945366894}
   m_Father: {fileID: 576181848}
@@ -242,6 +376,136 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &129861806
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: "The artist creates paintings that show our age\u2019s greatest inventions.
+        This is a portrayal of a race in the skies over Tokyo. The use of lighting
+        creates a realistic but exciting atmosphere, one that is typical to a night
+        out in a megacity."
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 5f5802737ac46ac43976ad16134a2acc,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: '[Its Fake]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: '[Too Low]you priced too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: '[Way Too Low]you priced waaayy too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: '[Too High]you priced too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: '[Way Too High]you priced waaaay too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: '[Not Fake]not much fake in this, its almost a photo of the view out
+        of our window!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1 &160155907
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +623,7 @@ PrefabInstance:
         type: 3}
       propertyPath: picture
       value: 
-      objectReference: {fileID: 21300000, guid: 5f5802737ac46ac43976ad16134a2acc,
+      objectReference: {fileID: 21300000, guid: 128dbfecf9dbd3848a74db9159e19c14,
         type: 3}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -496,7 +760,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220101318}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.4197145, y: 1.46, z: -0.28}
+  m_LocalPosition: {x: -6.77, y: 1.19, z: -0.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1428519295}
@@ -541,7 +805,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: d38a4ba74e5c63941b472103b74fa14e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -587,7 +851,7 @@ PrefabInstance:
         type: 3}
       propertyPath: picture
       value: 
-      objectReference: {fileID: 21300000, guid: 37aebf36d3db5064f96c282b723a530b,
+      objectReference: {fileID: 21300000, guid: f728cc9f37d603d498480128449f66af,
         type: 3}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -802,7 +1066,7 @@ PrefabInstance:
         type: 3}
       propertyPath: picture
       value: 
-      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+      objectReference: {fileID: 21300000, guid: 700a330d34d90904cb7ff58feb414fb2,
         type: 3}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1182,7 +1446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571122143}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.26, y: 4.18, z: -0.32}
+  m_LocalPosition: {x: -7.01, y: 4.08, z: -0.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 685974035}
@@ -1229,7 +1493,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 7f2eecbb7475b5e4c8870bfedce2991e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bfd6adba83851104bb239eff837d4966, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1372,7 +1636,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685974034}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.332}
+  m_LocalPosition: {x: 0, y: 0, z: -0.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 571122144}
@@ -1380,7 +1644,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.155, y: 1.078}
+  m_AnchoredPosition: {x: -0.27, y: 1.29}
   m_SizeDelta: {x: 4.136, y: 4.472}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &685974036
@@ -1532,6 +1796,12 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &693514503 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1462575375}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &757655974
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,8 +2473,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.01, y: 0.05}
-  m_SizeDelta: {x: 4.485, y: 2.516}
+  m_AnchoredPosition: {x: 0.08, y: 0.14}
+  m_SizeDelta: {x: 4.485, y: 2.284}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &945366895
 MonoBehaviour:
@@ -2618,6 +2888,142 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1239374501 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 40869782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1291246604
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: "The artist creates paintings that show our age\u2019s greatest inventions.
+        This is a portrayal of a race in the skies over Tokyo. The use of lighting
+        creates a realistic but exciting atmosphere, one that is typical to a night
+        out in a megacity."
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 0a80deb2f94de2e46abf5fed39b81687,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: '[Its Fake]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: '[Too Low]you priced too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: '[Way Too Low]you priced waaayy too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: '[Too High]you priced too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: '[Way Too High]you priced waaaay too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: '[Not Fake]not much fake in this, its almost a photo of the view out
+        of our window!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1 &1331147217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +3174,148 @@ Transform:
   m_Father: {fileID: 2047381098}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1457065638 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1291246604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1462575375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: "The artist creates paintings that show our age\u2019s greatest inventions.
+        This is a portrayal of a race in the skies over Tokyo. The use of lighting
+        creates a realistic but exciting atmosphere, one that is typical to a night
+        out in a megacity."
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d0778ac07d782847b5ef29ada9cc317,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: '[Correct]hmhm such an everyday picture, I am moderately entertained'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: '[Its Fake]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: '[Too Low]you priced too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: '[Way Too Low]you priced waaayy too low'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: '[Too High]you priced too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: '[Way Too High]you priced waaaay too high'
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: '[Not Fake]not much fake in this, its almost a photo of the view out
+        of our window!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
+--- !u!4 &1511215838 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 129861806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1524407788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,7 +3775,7 @@ PrefabInstance:
         type: 3}
       propertyPath: picture
       value: 
-      objectReference: {fileID: 21300000, guid: 128dbfecf9dbd3848a74db9159e19c14,
+      objectReference: {fileID: 21300000, guid: 37aebf36d3db5064f96c282b723a530b,
         type: 3}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3429,7 +3977,7 @@ PrefabInstance:
         type: 3}
       propertyPath: picture
       value: 
-      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+      objectReference: {fileID: 21300000, guid: 537c6170e99533d49baeb3282ce4f491,
         type: 3}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3778,7 +4326,7 @@ PrefabInstance:
         type: 3}
       propertyPath: picture
       value: 
-      objectReference: {fileID: 21300000, guid: f0f0f8278437372498015e4df8209c6e,
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
         type: 3}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
