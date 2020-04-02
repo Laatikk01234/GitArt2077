@@ -10,7 +10,11 @@ public class Gamelogic : MonoBehaviour
 
     //Andrea messing up
     public GameObject curtainsObject;
+    public GameObject canvasObject;
+    //public GameObject blackobject;
     Animator anim;
+    Animator animcanvas;
+    //Animator animblack;
     //Andrea messing up end
 
     public List<GameObject> art;
@@ -62,6 +66,8 @@ public class Gamelogic : MonoBehaviour
         //StartCoroutine(Waiter());
         // Andrea messing up 
         anim = curtainsObject.GetComponent<Animator>();
+        //animblack = blackobject.GetComponent<Animator>();
+        animcanvas = canvasObject.GetComponent<Animator>();
         // Andrea messing up end
         
         
@@ -170,6 +176,8 @@ public class Gamelogic : MonoBehaviour
                     //maybe position change - definitely slider away.
                     currentPicture.sprite = null;
                     GiveSubGrade();
+
+
                 }
                 else
                 {
@@ -194,7 +202,10 @@ public class Gamelogic : MonoBehaviour
 
     private void NextPainting()
     {
+        
         anim.SetBool("DayStarted", false);
+
+
         currentArtinformation = art[listIndexAndDay].GetComponent<Artinformation>();
         currentPicture.sprite = currentArtinformation.picture;
         traineeText.text = currentArtinformation.traineeSays;
@@ -373,9 +384,17 @@ public class Gamelogic : MonoBehaviour
             feedbackBubble.SetActive(false);
             traineeSpeechbubble.SetActive(true);
             professorSpeechbubble.SetActive(true);
+            //Andrea
+            //text of day trigger animation
+            animcanvas.SetTrigger("Text");
+            //Andrea end
         }
         else
         {
+            //Andrea
+            //Day Ends and fade to black trigger
+            animcanvas.SetTrigger("DayEndsss");
+            //Andrea end
             feedbackBubble.SetActive(true);
             traineeSpeechbubble.SetActive(false);
             professorSpeechbubble.SetActive(false);
