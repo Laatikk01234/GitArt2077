@@ -55,9 +55,11 @@ public class Gamelogic : MonoBehaviour
     private const int mediocre = 350;
     private const int expensive = 500;
 
+    private bool waitForClick = false;
 
     public void Start()
     {
+        //StartCoroutine(Waiter());
         // Andrea messing up 
         anim = curtainsObject.GetComponent<Animator>();
         // Andrea messing up end
@@ -77,6 +79,16 @@ public class Gamelogic : MonoBehaviour
         Button btn = confirm.GetComponent<Button>();
         btn.onClick.AddListener(StartOrSubmitOrNext);
         buttonText = confirm.GetComponentInChildren<Text>();
+    }
+
+    IEnumerator WaitAndNextPainting()
+    {
+        waitForClick = true;
+        //float halfOfAnimationMaybe = 0.5F;
+        yield return new WaitForSeconds(0.5F);
+        NextPainting();
+        waitForClick = false;
+
     }
 
     public void SliderValueChange()
@@ -104,60 +116,75 @@ public class Gamelogic : MonoBehaviour
     // both of these work for clicking
     void StartOrSubmitOrNext()
     {
+        // minnettää? StartCoroutine(Waiter());
+
+
         // ok clicked -> give response and then change art piece
 
         //initial value is start -> changed to submit when art is given -> changed to next after confirm
         // changed to submit after clicking next, changed to start at the change of week?
         //currentArtinformation = art[listIndexAndDay].GetComponent<Artinformation>();
         //NextPainting();
-        if (buttonText.text == "Start")
+        if (waitForClick == false)
         {
-            //currentPicture.sprite = currentArtinformation.picture;
-            //traineeText.text = currentArtinformation.traineeSays;
-            //buttonText.text = "Submit";
-
-            NextPainting();
-
-        }
-        else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value")
-        {
-            DailyGradeAndResponse();
-            buttonText.text = "Next";
-        }
-        else if (buttonText.text == "Ok")
-        {
-            buttonText.text = "Start";
-            SwitchSpeechBubbleVisibility();
-            NextPainting();
-        }
-        else if (buttonText.text == "Next")
-        {
-            listIndexAndDay += 1;
-            if (listIndexAndDay == 25)
+            if (buttonText.text == "Start")
             {
-                // Game over -> ending screen
+                //currentPicture.sprite = currentArtinformation.picture;
+                //traineeText.text = currentArtinformation.traineeSays;
+                //buttonText.text = "Submit";
 
-                GiveFinalGrade();
-            }
-            else if (listIndexAndDay % 5 == 0)
-            {
-                // week change 
-                //elif ok is the next -> slider back if taken away?
-                buttonText.text = "Ok";
-                //maybe position change - definitely slider away.
-                currentPicture.sprite = null;
-                GiveSubGrade();
-            }
-            else
-            {
+
+
                 NextPainting();
+                //curtains open
+            }
+            // derbing for testing
+            else if (buttonText.text == "Submit" && sliderValueText.text != "!!!!!!!!!!!!!!!!!!!!!Choose art value")
+            {
+                DailyGradeAndResponse();
+                buttonText.text = "Next";
+            }
+            else if (buttonText.text == "Ok")
+            {
+                buttonText.text = "Start";
+                SwitchSpeechBubbleVisibility();
+                NextPainting();
+            }
+            else if (buttonText.text == "Next")
+            {
+                // Curtains close
+                listIndexAndDay += 1;
+                if (listIndexAndDay == 25)
+                {
+                    // Game over -> ending screen
 
-                //Andrea messing up
-                anim.SetTrigger("ClickNext");
-                //Andrea messing up end
+                    GiveFinalGrade();
+                }
+                else if (listIndexAndDay % 5 == 0)
+                {
+                    // week change 
+                    //elif ok is the next -> slider back if taken away?
+                    buttonText.text = "Ok";
+                    //maybe position change - definitely slider away.
+                    currentPicture.sprite = null;
+                    GiveSubGrade();
+                }
+                else
+                {
+
+
+                    //Andrea messing up
+                    anim.SetTrigger("ClickNext");
+                    //Andrea messing up end
+                    StartCoroutine(WaitAndNextPainting());
+                    //curtains close
+                    //NextPainting();
+                    // curtains open
+
+
+                }
             }
         }
-
 
 
     }
