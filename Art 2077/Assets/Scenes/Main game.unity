@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 131525119}
   - component: {fileID: 131525118}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP) Next morning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3970,7 +3970,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1

@@ -105,11 +105,11 @@ public class Gamelogic : MonoBehaviour
         {
             sliderValueText.text = "Fake";
         }
-        else if (curValue < cheap)
+        else if (curValue <= cheap)
         {
             sliderValueText.text = "Cheap";
         }
-        else if (curValue < mediocre)
+        else if (curValue <= mediocre)
         {
             sliderValueText.text = "Mediocre";
         }
