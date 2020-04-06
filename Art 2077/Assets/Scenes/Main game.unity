@@ -976,11 +976,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalGrades:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - A You amazing little butterly, i think might be in love with you
+  - B something more and you could be nearly as amazing as me
+  - C Less than satisfactory, enjoy your job at mcdonalds
+  - D who has paid for you to enter my school?
+  - F Get the fuck out of here!
+  - F- Get the fuuuuuuuuuuuuck out of here!
 --- !u!1 &220101318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,11 +1600,6 @@ MonoBehaviour:
   - {fileID: 1353201909}
   - {fileID: 1200231777}
   - {fileID: 465492190}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

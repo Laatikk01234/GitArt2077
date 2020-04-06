@@ -10,6 +10,7 @@ public class Gamelogic : MonoBehaviour
     public GameObject subGradeObject;
     private SubGradeList subGradeGiverList;
     public GameObject FinalGradeObject;
+    private FinalGrade finalGradeGiver;
 
 
 
@@ -64,12 +65,15 @@ public class Gamelogic : MonoBehaviour
     private const int mediocre = 350;
     private const int expensive = 500;
 
+    private const int gamelength = 20;
+
     private bool waitForClick = false;
 
     public void Start()
     {
         subGradeGiverList = subGradeObject.GetComponent<SubGradeList>();
         //subGradeList.subGrades[day].GetComponent<GradeTextValues>().gradeA;
+        finalGradeGiver = FinalGradeObject.GetComponent<FinalGrade>();
 
 
         // Andrea messing up 
@@ -170,7 +174,7 @@ public class Gamelogic : MonoBehaviour
             {
                 // Curtains close
                 listIndexAndArtpiecenumber += 1;
-                if (listIndexAndArtpiecenumber == 25)
+                if (listIndexAndArtpiecenumber == gamelength)
                 {
                     // Game over -> ending screen
 
@@ -319,37 +323,37 @@ public class Gamelogic : MonoBehaviour
     private void GiveFinalGrade()
     {
         SwitchSpeechBubbleVisibility();
+        string grade;
         foreach (int x in DailySubGrade)
         {
             totalGrade += x;
         }
-        char grade;
         if (totalGrade == 50)
         {
-            grade = 'A';
+            grade = finalGradeGiver.finalGrades[0];
         }
         else if (totalGrade > 40)
         {
-            grade = 'B';
+            grade = finalGradeGiver.finalGrades[1];
         }
         else if (totalGrade > 30)
         {
-            grade = 'C';
+            grade = finalGradeGiver.finalGrades[2];
         }
         else if (totalGrade > 20)
         {
-            grade = 'D';
+            grade = finalGradeGiver.finalGrades[3];
         }
         else if (totalGrade > 10)
         {
-            grade = 'F';
+            grade = finalGradeGiver.finalGrades[4];
         }
         else
         {
-            grade = 'F';
+            grade = finalGradeGiver.finalGrades[5];
         }
-        
-        feedbackBubbleText.text = "Your total grade is " + grade;
+
+        feedbackBubbleText.text = grade;
     }
 
     private void GiveSubGrade()
