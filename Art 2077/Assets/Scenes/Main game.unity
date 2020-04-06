@@ -1600,16 +1600,16 @@ MonoBehaviour:
   - {fileID: 1353201909}
   - {fileID: 1200231777}
   - {fileID: 465492190}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5236006562697888522}
+  - {fileID: 1917313174}
+  - {fileID: 277670861}
+  - {fileID: 199099887}
+  - {fileID: 378003489}
+  - {fileID: 2012888459}
+  - {fileID: 858560111}
+  - {fileID: 1353201909}
+  - {fileID: 1200231777}
+  - {fileID: 465492190}
   artLocation: {fileID: 848992956}
   feedbackBubble: {fileID: 479364902}
   traineeSpeechbubble: {fileID: 571122143}
@@ -2035,7 +2035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: These empty walls make my soul burn!
+  m_text: My but is aching for art!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88189b388e3538a4dbd7c832bdf57648, type: 2}
   m_sharedMaterial: {fileID: 2929774958649788828, guid: 88189b388e3538a4dbd7c832bdf57648,
@@ -2110,10 +2110,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: -0.013615607, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 685974036}
-    characterCount: 36
+    characterCount: 25
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 7
+    spaceCount: 5
+    wordCount: 6
     linkCount: 0
     lineCount: 2
     pageCount: 1

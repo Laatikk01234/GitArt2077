@@ -105,6 +105,12 @@ public class Gamelogic : MonoBehaviour
         //float halfOfAnimationMaybe = 0.5F;
         yield return new WaitForSeconds(0.5F);
         NextPainting();
+        // text animation here
+        //pause
+        // text animation here
+        // slider back up
+        //pause
+
         waitForClick = false;
 
     }
@@ -135,7 +141,10 @@ public class Gamelogic : MonoBehaviour
     void StartOrSubmitOrNext()
     {
         // minnettää? StartCoroutine(Waiter());
-
+        if (buttonText.text == "End")
+        {
+            // end game
+        }
 
         // ok clicked -> give response and then change art piece
 
@@ -157,8 +166,9 @@ public class Gamelogic : MonoBehaviour
                 //curtains open
             }
             // derbing for testing
-            else if (buttonText.text == "Submit" && sliderValueText.text != "!!!!!!!!!!!!!!!!!!!!!Choose art value")
+            else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value")
             {
+                // animate slider to go down
                 CurrentArtpieceGradeAndResponse();
                 buttonText.text = "Next";
                 //anim.SetBool("DayStarted", false);
@@ -322,6 +332,7 @@ public class Gamelogic : MonoBehaviour
 
     private void GiveFinalGrade()
     {
+        //Final grade mechanics?
         SwitchSpeechBubbleVisibility();
         string grade;
         foreach (int x in DailySubGrade)
@@ -354,6 +365,8 @@ public class Gamelogic : MonoBehaviour
         }
 
         feedbackBubbleText.text = grade;
+        //
+        buttonText.text = "End";
     }
 
     private void GiveSubGrade()
