@@ -12,17 +12,16 @@ public class Gamelogic : MonoBehaviour
     public GameObject FinalGradeObject;
     private FinalGrade finalGradeGiver;
 
-    public GameObject DarknessText;
-    private TextMeshPro darknessText;
-
 
     //Andrea messing up
     public GameObject curtainsObject;
     public GameObject canvasObject;
-    //public GameObject blackobject;
     Animator anim;
     Animator animcanvas;
-    //Animator animblack;
+
+    public GameObject darknessTextObject;
+    private TextMeshProUGUI darknessText;
+    private int DayCount = 1;
     //Andrea messing up end
 
     public List<GameObject> art;
@@ -80,8 +79,9 @@ public class Gamelogic : MonoBehaviour
 
         // Andrea messing up 
         anim = curtainsObject.GetComponent<Animator>();
-        //animblack = blackobject.GetComponent<Animator>();
         animcanvas = canvasObject.GetComponent<Animator>();
+
+        darknessText = darknessTextObject.GetComponent<TextMeshProUGUI>();
         // Andrea messing up end
         
         
@@ -179,7 +179,9 @@ public class Gamelogic : MonoBehaviour
             }
             else if (buttonText.text == "Ok")
             {
-                // darkness text here?
+                // darkness text changes - Andrea
+                DayCount = DayCount + 1;
+                darknessText.text = "DAY " + DayCount;
                 buttonText.text = "Start";
              
                 SwitchSpeechBubbleVisibility();
