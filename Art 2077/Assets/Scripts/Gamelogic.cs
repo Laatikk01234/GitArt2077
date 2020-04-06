@@ -12,6 +12,8 @@ public class Gamelogic : MonoBehaviour
     public GameObject FinalGradeObject;
     private FinalGrade finalGradeGiver;
 
+    public GameObject DarknessText;
+    private TextMeshPro darknessText;
 
 
     //Andrea messing up
@@ -160,13 +162,15 @@ public class Gamelogic : MonoBehaviour
                 //traineeText.text = currentArtinformation.traineeSays;
                 //buttonText.text = "Submit";
 
+
+                // slider up?
                 anim.SetBool("DayStarted", true);
 
                 NextPainting();
                 //curtains open
             }
             // derbing for testing
-            else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value")
+            else if (buttonText.text == "Submit" && sliderValueText.text != "!!Choose art value")
             {
                 // animate slider to go down
                 CurrentArtpieceGradeAndResponse();
@@ -175,7 +179,9 @@ public class Gamelogic : MonoBehaviour
             }
             else if (buttonText.text == "Ok")
             {
+                // darkness text here?
                 buttonText.text = "Start";
+             
                 SwitchSpeechBubbleVisibility();
                 NextPainting();
                 //anim.SetBool("DayStarted", false);
