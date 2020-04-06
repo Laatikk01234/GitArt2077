@@ -123,6 +123,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &22277631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 22277632}
+  m_Layer: 0
+  m_Name: Grades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &22277632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22277631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5176911, y: 0.062431, z: -0.213792}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1006163904}
+  - {fileID: 204774067}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &40869782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -900,6 +932,55 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 199099885}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &204774066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 204774067}
+  - component: {fileID: 204774068}
+  m_Layer: 0
+  m_Name: FinalGrades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &204774067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204774066}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22277632}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &204774068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204774066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1716490850c30ad45bfe5bf2aa7bedac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finalGrades:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &220101318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,6 +1430,117 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 378003488}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &412239850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1006163904}
+    m_Modifications:
+    - target: {fileID: 3868506841556860084, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_Name
+      value: Day3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeA
+      value: You're getting the hang of this, aren't you? Keep this up for the last
+        day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeB
+      value: Good. I agree with most of your choices here. Figure out your weaknesses,
+        and you'll shine on the final day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeC
+      value: You're still unsure of how art prices work? You only have one more day
+        left to prove yourself, you know.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeD
+      value: Not good, not good. You're almost out of chances to prove yourself.
+        Do better!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeF
+      value: This is not the performance one wants to see on the second to last day.
+        Pull yourself together!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6db43af3406d9ed44a9d122c1f24b459, type: 3}
+--- !u!4 &412239851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+    type: 3}
+  m_PrefabInstance: {fileID: 412239850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &412239852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3868506841556860084, guid: 6db43af3406d9ed44a9d122c1f24b459,
+    type: 3}
+  m_PrefabInstance: {fileID: 412239850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &420970417
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,6 +1584,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13445aeb4a3f3464c989ed3b13df9d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  subGradeObject: {fileID: 1006163903}
+  FinalGradeObject: {fileID: 204774066}
   curtainsObject: {fileID: 1597264104}
   canvasObject: {fileID: 946895053}
   art:
@@ -1845,7 +2039,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: These empty frames make my soul burn!
+  m_text: These empty walls make my soul burn!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88189b388e3538a4dbd7c832bdf57648, type: 2}
   m_sharedMaterial: {fileID: 2929774958649788828, guid: 88189b388e3538a4dbd7c832bdf57648,
@@ -1920,7 +2114,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: -0.013615607, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 685974036}
-    characterCount: 37
+    characterCount: 36
     spriteCount: 0
     spaceCount: 6
     wordCount: 7
@@ -3089,6 +3283,58 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1006163903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1006163904}
+  - component: {fileID: 1006163905}
+  m_Layer: 0
+  m_Name: Subgrades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1006163904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006163903}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8607794338073644489}
+  - {fileID: 1295286792}
+  - {fileID: 412239851}
+  - {fileID: 1211654770}
+  m_Father: {fileID: 22277632}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1006163905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006163903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b64c58dc34726e499cedf081c69e799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subGrades:
+  - {fileID: 8607794338073644490}
+  - {fileID: 1295286793}
+  - {fileID: 412239852}
+  - {fileID: 1211654771}
 --- !u!1 &1191611756
 GameObject:
   m_ObjectHideFlags: 0
@@ -3225,6 +3471,116 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
     type: 3}
   m_PrefabInstance: {fileID: 129861806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1211654769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1006163904}
+    m_Modifications:
+    - target: {fileID: 3868506841556860084, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_Name
+      value: Day4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeA
+      value: The final day was a great success. I'm happy for you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeB
+      value: Not perfect, but pretty good valuations, I must admit. You might become
+        something in life.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeC
+      value: Why do you submit to mediocrity? With just a bit more effort, your future
+        would have been bright.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeD
+      value: This is how you finish the course? You're not worthy of examining these
+        paintings.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeF
+      value: 'The final day was a disgusting debacle. This isn''t the career for
+        you, child. '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6db43af3406d9ed44a9d122c1f24b459, type: 3}
+--- !u!4 &1211654770 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+    type: 3}
+  m_PrefabInstance: {fileID: 1211654769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1211654771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3868506841556860084, guid: 6db43af3406d9ed44a9d122c1f24b459,
+    type: 3}
+  m_PrefabInstance: {fileID: 1211654769}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1238333006
 GameObject:
@@ -3398,6 +3754,114 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
+--- !u!1001 &1295286791
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1006163904}
+    m_Modifications:
+    - target: {fileID: 3868506841556860084, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_Name
+      value: Day2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeA
+      value: Great job! You've made wonderful valuations. Reminds me of myself when
+        I was your age...
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeB
+      value: Solid work. Just be a bit more patient with your choices.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeC
+      value: You're standing at a crossroads. One path leads to success, the other
+        towards failure. Which will you choose?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeD
+      value: Please! Are you even trying anymore?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeF
+      value: Absolutely dreadful performance. Did you come here to waste my time?
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6db43af3406d9ed44a9d122c1f24b459, type: 3}
+--- !u!4 &1295286792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+    type: 3}
+  m_PrefabInstance: {fileID: 1295286791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1295286793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3868506841556860084, guid: 6db43af3406d9ed44a9d122c1f24b459,
+    type: 3}
+  m_PrefabInstance: {fileID: 1295286791}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1331147217
 GameObject:
   m_ObjectHideFlags: 0
@@ -4895,3 +5359,115 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
+--- !u!1001 &8607794338073644488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1006163904}
+    m_Modifications:
+    - target: {fileID: 3868506841556860084, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_Name
+      value: Day1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeA
+      value: What a perfect start! You may actually amount to something after all.
+        Keep it up.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeB
+      value: Not too shabby. There's still room for improvement, though! Be a bit
+        more thoughtful for the next days.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeC
+      value: Be more careful with your valuations! Think carefully of the types and
+        subjects. Not all art is created equal.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeD
+      value: 'Oh, dear. Are you thinking about your prices at all? You''re very close
+        to getting booted out of the class. Here''s a hint: certain types and elements
+        in the picture affect the valuation.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
+        type: 3}
+      propertyPath: gradeF
+      value: 'This was terrible to witness. This career is not for you. Oh, you want
+        to prove me wrong? '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6db43af3406d9ed44a9d122c1f24b459, type: 3}
+--- !u!4 &8607794338073644489 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6525895130463401055, guid: 6db43af3406d9ed44a9d122c1f24b459,
+    type: 3}
+  m_PrefabInstance: {fileID: 8607794338073644488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8607794338073644490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3868506841556860084, guid: 6db43af3406d9ed44a9d122c1f24b459,
+    type: 3}
+  m_PrefabInstance: {fileID: 8607794338073644488}
+  m_PrefabAsset: {fileID: 0}

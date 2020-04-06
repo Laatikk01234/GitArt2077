@@ -7,6 +7,11 @@ using UnityEngine.UI;
 
 public class Gamelogic : MonoBehaviour
 {
+    public GameObject subGradeObject;
+    private SubGradeList subGradeGiverList;
+    public GameObject FinalGradeObject;
+
+
 
     //Andrea messing up
     public GameObject curtainsObject;
@@ -20,12 +25,12 @@ public class Gamelogic : MonoBehaviour
     public List<GameObject> art;
     public GameObject artLocation;
     private SpriteRenderer currentPicture;
-    private int listIndexAndDay = 0;
+    private int listIndexAndArtpiecenumber = 0;
 
     private Artinformation currentArtinformation;
 
-    private int dailyGrade = 0;
-    private List<int> weeklyGrade = new List<int>()
+    private int ArtpieceGrade = 0;
+    private List<int> DailySubGrade = new List<int>()
     {
         0,
         0,
@@ -33,7 +38,7 @@ public class Gamelogic : MonoBehaviour
         0,
         0
     };
-    private int week = 0;
+    private int day = 0;
     private int totalGrade = 0;
 
     public GameObject feedbackBubble;
@@ -63,7 +68,10 @@ public class Gamelogic : MonoBehaviour
 
     public void Start()
     {
-        //StartCoroutine(Waiter());
+        subGradeGiverList = subGradeObject.GetComponent<SubGradeList>();
+        //subGradeList.subGrades[day].GetComponent<GradeTextValues>().gradeA;
+
+
         // Andrea messing up 
         anim = curtainsObject.GetComponent<Animator>();
         //animblack = blackobject.GetComponent<Animator>();
@@ -147,7 +155,7 @@ public class Gamelogic : MonoBehaviour
             // derbing for testing
             else if (buttonText.text == "Submit" && sliderValueText.text != "!!!!!!!!!!!!!!!!!!!!!Choose art value")
             {
-                DailyGradeAndResponse();
+                CurrentArtpieceGradeAndResponse();
                 buttonText.text = "Next";
                 //anim.SetBool("DayStarted", false);
             }
@@ -161,14 +169,14 @@ public class Gamelogic : MonoBehaviour
             else if (buttonText.text == "Next")
             {
                 // Curtains close
-                listIndexAndDay += 1;
-                if (listIndexAndDay == 25)
+                listIndexAndArtpiecenumber += 1;
+                if (listIndexAndArtpiecenumber == 25)
                 {
                     // Game over -> ending screen
 
                     GiveFinalGrade();
                 }
-                else if (listIndexAndDay % 5 == 0)
+                else if (listIndexAndArtpiecenumber % 5 == 0)
                 {
                     // week change 
                     //elif ok is the next -> slider back if taken away?
@@ -206,7 +214,7 @@ public class Gamelogic : MonoBehaviour
         anim.SetBool("DayStarted", false);
 
 
-        currentArtinformation = art[listIndexAndDay].GetComponent<Artinformation>();
+        currentArtinformation = art[listIndexAndArtpiecenumber].GetComponent<Artinformation>();
         currentPicture.sprite = currentArtinformation.picture;
         traineeText.text = currentArtinformation.traineeSays;
         professorText.text = "Lets value some art!";
@@ -216,7 +224,7 @@ public class Gamelogic : MonoBehaviour
     }
 
 
-    private void DailyGradeAndResponse()
+    private void CurrentArtpieceGradeAndResponse()
     {
         //Debug.Log();
         // A = 10, B = 8, C = 6, D = 4, F = 2;
@@ -226,12 +234,12 @@ public class Gamelogic : MonoBehaviour
         {
             if (picVal == 0)
             {
-                dailyGrade = 2;
+                ArtpieceGrade = 2;
                 professorText.text = currentArtinformation.correct;
             }
             else
             {
-                dailyGrade = 0;
+                ArtpieceGrade = 0;
                 professorText.text = currentArtinformation.notFake;
             }
         }
@@ -240,22 +248,22 @@ public class Gamelogic : MonoBehaviour
             if (picVal == fake)
             {
                 professorText.text = currentArtinformation.itsFake;
-                dailyGrade = 0;
+                ArtpieceGrade = 0;
             }
             else if (picVal < cheap)
             {
                 professorText.text = currentArtinformation.correct;
-                dailyGrade = 2;
+                ArtpieceGrade = 2;
             }
             else if (picVal < mediocre) 
             {
                 professorText.text = currentArtinformation.tooLow;
-                dailyGrade = 1;
+                ArtpieceGrade = 1;
             }
             else if (picVal <= expensive)
             {
                 professorText.text = currentArtinformation.wayTooLow;
-                dailyGrade = 0;
+                ArtpieceGrade = 0;
             }
         }
         else if (sliderValueText.text == "Mediocre")
@@ -263,22 +271,22 @@ public class Gamelogic : MonoBehaviour
             if (picVal == fake)
             {
                 professorText.text = currentArtinformation.itsFake;
-                dailyGrade = 0;
+                ArtpieceGrade = 0;
             }
             else if (picVal < cheap)
             {
                 professorText.text = currentArtinformation.tooHigh;
-                dailyGrade = 1;
+                ArtpieceGrade = 1;
             }
             else if (picVal < mediocre)
             {
                 professorText.text = currentArtinformation.correct;
-                dailyGrade = 2;
+                ArtpieceGrade = 2;
             }
             else if (picVal <= expensive)
             {
                 professorText.text = currentArtinformation.tooLow;
-                dailyGrade = 1;
+                ArtpieceGrade = 1;
             }
         }
         else if (sliderValueText.text == "Expensive")
@@ -286,31 +294,32 @@ public class Gamelogic : MonoBehaviour
             if (picVal == fake)
             {
                 professorText.text = currentArtinformation.itsFake;
-                dailyGrade = 0;
+                ArtpieceGrade = 0;
             }
             else if (picVal < cheap)
             {
                 professorText.text = currentArtinformation.wayTooHigh;
-                dailyGrade = 0;
+                ArtpieceGrade = 0;
             }
             else if (picVal < mediocre)
             {
                 professorText.text = currentArtinformation.tooHigh;
-                dailyGrade = 1;
+                ArtpieceGrade = 1;
             }
             else if (picVal <= expensive)
             {
                 professorText.text = currentArtinformation.correct;
-                dailyGrade = 2;
+                ArtpieceGrade = 2;
             }
         }
 
-        weeklyGrade[week] = weeklyGrade[week] + dailyGrade;
+        DailySubGrade[day] = DailySubGrade[day] + ArtpieceGrade;
     }
 
     private void GiveFinalGrade()
     {
-        foreach (int x in weeklyGrade)
+        SwitchSpeechBubbleVisibility();
+        foreach (int x in DailySubGrade)
         {
             totalGrade += x;
         }
@@ -339,41 +348,44 @@ public class Gamelogic : MonoBehaviour
         {
             grade = 'F';
         }
-        SwitchSpeechBubbleVisibility();
+        
         feedbackBubbleText.text = "Your total grade is " + grade;
     }
 
     private void GiveSubGrade()
     {
+        GradeTextValues gradeGiver = subGradeGiverList.subGrades[day].GetComponent<GradeTextValues>();
+        string grade;
+            //subGradeList.subGrades[day].GetComponent<GradeTextValues>().gradeA;
         SwitchSpeechBubbleVisibility();
-        char grade;
-        if (weeklyGrade[week] == 10)
+        if (DailySubGrade[day] == 10)
         {
-            grade = 'A';
+            grade = gradeGiver.gradeA;
         }
-        else if (weeklyGrade[week] > 8)
+        else if (DailySubGrade[day] > 8)
         {
-            grade = 'B';
+            grade = gradeGiver.gradeB;
         }
-        else if (weeklyGrade[week] > 6)
+        else if (DailySubGrade[day] > 6)
         {
-            grade = 'C';
+            grade = gradeGiver.gradeC;
         }
-        else if (weeklyGrade[week] > 4)
+        else if (DailySubGrade[day] > 4)
         {
-            grade = 'D';
+            grade = gradeGiver.gradeD;
         }
-        else if (weeklyGrade[week] > 2)
-        {
-            grade = 'F';
-        }
+        //else if (DailySubGrade[day] > 2)
+        //{
+        //    grade = gradeGiver.gradeF;
+        //}
+        // all answers less than 4 points total
         else
         {
-            grade = 'F';
+            grade = gradeGiver.gradeF;
         }
 
-        feedbackBubbleText.text = "Your weekly grade is " + grade;
-        week += 1;
+        feedbackBubbleText.text = grade;
+        day += 1;
 
     }
 
