@@ -165,6 +165,7 @@ public class Gamelogic : MonoBehaviour
 
                 // slider up?
                 anim.SetBool("DayStarted", true);
+                darknessText.text = "DAY " + DayCount;
 
                 NextPainting();
                 //curtains open
@@ -179,9 +180,11 @@ public class Gamelogic : MonoBehaviour
             }
             else if (buttonText.text == "Ok")
             {
+
                 // darkness text changes - Andrea
-                DayCount = DayCount + 1;
-                darknessText.text = "DAY " + DayCount;
+                    DayCount = DayCount + 1;
+                    darknessText.text = "DAY " + DayCount;
+                
                 buttonText.text = "Start";
              
                 SwitchSpeechBubbleVisibility();
@@ -234,6 +237,7 @@ public class Gamelogic : MonoBehaviour
     {
         
         anim.SetBool("DayStarted", false);
+        animcanvas.SetBool("RollIntro", false);
 
 
         currentArtinformation = art[listIndexAndArtpiecenumber].GetComponent<Artinformation>();
