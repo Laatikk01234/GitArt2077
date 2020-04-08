@@ -82,6 +82,8 @@ public class Gamelogic : MonoBehaviour
         animcanvas = canvasObject.GetComponent<Animator>();
 
         darknessText = darknessTextObject.GetComponent<TextMeshProUGUI>();
+
+        animcanvas.SetTrigger("IntroRoll");
         // Andrea messing up end
         
         
@@ -236,7 +238,7 @@ public class Gamelogic : MonoBehaviour
     {
         
         anim.SetBool("DayStarted", false);
-        animcanvas.SetBool("RollIntro", false);
+        //animcanvas.SetBool("RollIntro", false);
 
 
         currentArtinformation = art[listIndexAndArtpiecenumber].GetComponent<Artinformation>();

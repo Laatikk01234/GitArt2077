@@ -607,7 +607,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: INTRO TEXT , after clicking start should say DAY1 will fix
+  m_text: INTRO TEXT , after this the text should say DAY1 will fix weeeeeeeeeeeeee
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88189b388e3538a4dbd7c832bdf57648, type: 2}
   m_sharedMaterial: {fileID: 2929774958649788828, guid: 88189b388e3538a4dbd7c832bdf57648,
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 72
+  m_fontSize: 63.25
   m_fontSizeBase: 86
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -682,10 +682,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 131525118}
-    characterCount: 58
+    characterCount: 73
     spriteCount: 0
-    spaceCount: 10
-    wordCount: 10
+    spaceCount: 12
+    wordCount: 12
     linkCount: 0
     lineCount: 4
     pageCount: 1
@@ -2197,7 +2197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelObject: {fileID: 913127743}
-  TypeDelay: 0.1
+  TypeDelay: 0.05
 --- !u!4 &693514503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
@@ -3204,7 +3204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelObject: {fileID: 913127743}
-  TypeDelay: 0.1
+  TypeDelay: 0.05
 --- !u!1 &946895053
 GameObject:
   m_ObjectHideFlags: 0
