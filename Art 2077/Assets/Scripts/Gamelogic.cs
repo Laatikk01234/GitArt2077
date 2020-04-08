@@ -165,7 +165,6 @@ public class Gamelogic : MonoBehaviour
 
                 // slider up?
                 anim.SetBool("DayStarted", true);
-                darknessText.text = "DAY " + DayCount;
 
                 NextPainting();
                 //curtains open

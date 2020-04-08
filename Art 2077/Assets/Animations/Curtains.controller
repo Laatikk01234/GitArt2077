@@ -361,6 +361,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: DayStarted
     m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: ClickNext
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 501733578994681007}
   m_Solo: 0
