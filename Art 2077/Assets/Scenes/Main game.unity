@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &1892201 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1762690823}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &22277631
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,6 +334,11 @@ Transform:
   - {fileID: 1239374501}
   - {fileID: 1511215838}
   - {fileID: 693514503}
+  - {fileID: 196407494}
+  - {fileID: 303762609}
+  - {fileID: 1157838953}
+  - {fileID: 1892201}
+  - {fileID: 1476335316}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -799,6 +810,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &196407494 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 385869375}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &199099885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1226,6 +1243,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 277670860}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &303762609 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1421567414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &312895172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,6 +1471,141 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 378003488}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &385869375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: The artist prefers portraying technology that is made for personal everyday
+        use. Here we see a portrait of a person mesmerized by virtual reality. Space
+        in the background resembles the unlimited possibilities of virtual worlds.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: da50429e36379aa4eb9d95cfbf6ed87c,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Correct. If the picture was just about the technology, maybe it'd be
+        worth more...
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: Really? I'm pretty sure no one on the planet cares about such pieces
+        enough to create fakes of them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Immersion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1001 &412239850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1635,6 +1793,141 @@ MonoBehaviour:
   artValueSlider: {fileID: 835091052}
   sliderTextMesh: {fileID: 757655974}
   confirm: {fileID: 1191611758}
+--- !u!1001 &462795684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: The artist prefers portraying technology that is made for personal everyday
+        use. Here we see a portrait of a person mesmerized by virtual reality. Space
+        in the background resembles the unlimited possibilities of virtual worlds.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 3ce5683034ee91845813c2d113271b18,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Correct. If the picture was just about the technology, maybe it'd be
+        worth more...
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: Really? I'm pretty sure no one on the planet cares about such pieces
+        enough to create fakes of them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Immersion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1 &465492190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
@@ -3379,6 +3672,12 @@ MonoBehaviour:
   - {fileID: 1295286793}
   - {fileID: 412239852}
   - {fileID: 1211654771}
+--- !u!4 &1157838953 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1460677838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1191611756
 GameObject:
   m_ObjectHideFlags: 0
@@ -4032,6 +4331,141 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1421567414
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: The artist prefers portraying technology that is made for personal everyday
+        use. Here we see a portrait of a person mesmerized by virtual reality. Space
+        in the background resembles the unlimited possibilities of virtual worlds.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 8d8631da442060145ac42677afdac4e4,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Correct. If the picture was just about the technology, maybe it'd be
+        worth more...
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: Really? I'm pretty sure no one on the planet cares about such pieces
+        enough to create fakes of them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Immersion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1 &1428519294
 GameObject:
   m_ObjectHideFlags: 0
@@ -4070,6 +4504,141 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1291246604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1460677838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: The artist prefers portraying technology that is made for personal everyday
+        use. Here we see a portrait of a person mesmerized by virtual reality. Space
+        in the background resembles the unlimited possibilities of virtual worlds.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 88aa7041075e6ef49b9189cce58d0503,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Correct. If the picture was just about the technology, maybe it'd be
+        worth more...
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: Really? I'm pretty sure no one on the planet cares about such pieces
+        enough to create fakes of them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Immersion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1001 &1462575375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4205,6 +4774,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
+--- !u!4 &1476335316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 462795684}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1511215838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
@@ -4497,6 +5072,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625237257}
   m_CullTransparentMesh: 0
+--- !u!1001 &1762690823
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: The artist prefers portraying technology that is made for personal everyday
+        use. Here we see a portrait of a person mesmerized by virtual reality. Space
+        in the background resembles the unlimited possibilities of virtual worlds.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 1fa64145632c0614680863ff547965a4,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Correct. If the picture was just about the technology, maybe it'd be
+        worth more...
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: Way too high! I should be paid to even glance at this monstrosity.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: Really? I'm pretty sure no one on the planet cares about such pieces
+        enough to create fakes of them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Immersion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1 &1901932656
 GameObject:
   m_ObjectHideFlags: 0
