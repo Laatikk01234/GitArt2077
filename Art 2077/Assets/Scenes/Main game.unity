@@ -5245,6 +5245,11 @@ PrefabInstance:
       propertyPath: wayTooHigh
       value: That's way too high. There's no creativity here, no soul. Be more realistic.
       objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
