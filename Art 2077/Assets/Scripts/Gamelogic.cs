@@ -243,7 +243,7 @@ public class Gamelogic : MonoBehaviour
         currentArtinformation = art[listIndexAndArtpiecenumber].GetComponent<Artinformation>();
         currentPicture.sprite = currentArtinformation.picture;
         traineeText.text = currentArtinformation.traineeSays;
-        professorText.text = "Lets value some art!";
+        professorText.text = currentArtinformation.professorSays;
         artValueSlider.value = 250;
         sliderValueText.text = "Choose art value";
         buttonText.text = "Submit";

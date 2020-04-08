@@ -8,6 +8,7 @@ public class Artinformation : MonoBehaviour
     public string artName;
     public int pictureValue;
     public string traineeSays;
+    public string professorSays;
     public string correct;
     public string notFake;
     public string itsFake;
