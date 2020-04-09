@@ -61,7 +61,7 @@ public class Gamelogic : MonoBehaviour
 
 
     // art value constants
-    private const int fake = 0;
+    private const int fake = 50;
     private const int cheap = 200;
     private const int mediocre = 350;
     private const int expensive = 500;
@@ -70,6 +70,15 @@ public class Gamelogic : MonoBehaviour
 
     private bool waitForClick = false;
 
+    public void Update()
+    {
+        SliderLock();
+    }
+
+    private void SliderLock()
+    {
+
+    }
     public void Start()
     {
         subGradeGiverList = subGradeObject.GetComponent<SubGradeList>();
@@ -123,7 +132,7 @@ public class Gamelogic : MonoBehaviour
     {
         //Debug.Log(artValueSlider.value);
         int curValue = (int)artValueSlider.value;
-        if (curValue == fake)
+        if (curValue <= fake)
         {
             sliderValueText.text = "Fake";
         }
