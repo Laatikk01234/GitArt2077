@@ -4565,8 +4565,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: You got it right! Do you know the original Belgian work or was it a
-        just lucky guess?
+      value: This is a fake you know? Such a lack of education...
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
