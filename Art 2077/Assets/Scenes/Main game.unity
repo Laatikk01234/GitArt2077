@@ -178,8 +178,8 @@ PrefabInstance:
         type: 3}
       propertyPath: traineeSays
       value: 'The artist creates paintings of space and everything related to it.
-        This is a majestic landscape of the first colony on Mars. It represents the
-        hope of creating pleasant living spaces for humanity across the galaxy. '
+        This is a majestic <i>landscape</i> of the first colony on Mars. It represents
+        the hope of creating pleasant living spaces for humanity across the galaxy. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -234,6 +234,11 @@ PrefabInstance:
         type: 3}
       propertyPath: artName
       value: Prometheus Station
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'I took a space taxi there on the opening day! It was such a fancy place. '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -442,8 +447,8 @@ PrefabInstance:
         type: 3}
       propertyPath: traineeSays
       value: 'The artist is known for making references to historical events. This
-        is a contemporary piece resembling iconic everyday objects that were used
-        to combat the great pandemic of 2020. Many experts think that the spirals
+        is a <i>contemporary</i> piece resembling iconic everyday objects that were
+        used to combat the great pandemic of 2020. Many experts think that the spirals
         created by the paper rolls resemble life itself. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
@@ -498,6 +503,11 @@ PrefabInstance:
         type: 3}
       propertyPath: artName
       value: PANDEMICDESTROYER 9000
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'To think something so common could be so powerful... '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -832,10 +842,10 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'The artist is known for making thoughtful contemporary art. This artwork
-        has been inspired by a famous piece from 2019. The use of three dimensions
-        brings depth to the painting. The use of duct tape adds great meaning to
-        the piece.  '
+      value: 'The artist is known for making thoughtful <i>contemporary art</i>.
+        This artwork has been inspired by a famous piece from 2019. The use of three
+        dimensions brings depth to the painting. The use of duct tape adds great
+        meaning to the piece.  '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -888,6 +898,11 @@ PrefabInstance:
         type: 3}
       propertyPath: wayTooHigh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'Ah, contemporary art! My favorite. '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1112,8 +1127,8 @@ PrefabInstance:
         type: 3}
       propertyPath: traineeSays
       value: 'The artist is not very well known. This piece is a portrait showing
-        a woman with a mysterious smile. The thoughtful use of colors gives a natural
-        feel to the artwork. '
+        a <i>person</i> with a mysterious smile. The thoughtful use of colors gives
+        a natural feel to the artwork. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1168,6 +1183,11 @@ PrefabInstance:
         type: 3}
       propertyPath: notFake
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'What could she hide behind that eerie smile? '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1341,8 +1361,8 @@ PrefabInstance:
       propertyPath: traineeSays
       value: "The artist prefers showcasing our artificial brethren, and this is
         her most well-known work. There\u2019s an immaculately portrayed hand of
-        a robot that\u2019s being built. This is another common event, something
-        you can see on the TV every day. "
+        a <i>robot</i> that\u2019s being built. This is another <i>common event</i>,
+        something you can see on the TV every day. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1396,6 +1416,11 @@ PrefabInstance:
         type: 3}
       propertyPath: artName
       value: The Birth of a People
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: "Robots are really \u201Chandy\u201D. Heh. "
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1487,14 +1512,15 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: The artist prefers portraying technology that is made for personal everyday
-        use. Here we see a portrait of a person mesmerized by virtual reality. Space
-        in the background resembles the unlimited possibilities of virtual worlds.
+      value: "The artist is known for making her own versions of old forgotten art.
+        It\u2019s a <i>contemporary</i> piece of an electronic cigar. With vaping
+        being more popular than normal smoking, this work brings an old idea to the
+        present age. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 125
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1505,8 +1531,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Correct. If the picture was just about the technology, maybe it'd be
-        worth more...
+      value: Oh yes. This is quite the imaginative piece, despite the language barrier.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1516,33 +1541,41 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: 
+      value: Too low. There are sublime intricacies here, and you would notice them
+        if you weren't totally clueless.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: 
+      value: Too low. There are sublime intricacies here, and you would notice them
+        if you weren't totally clueless.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: Really? I'm pretty sure no one on the planet cares about such pieces
-        enough to create fakes of them.
+      value: Wrong! Taking heavy influences from art of the past is completely fine
+        in the business.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Immersion
+      value: The Objectivity of Images
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'Hah! To think people actually speak such weird languages. American
+        English is all you need! '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1606,6 +1639,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
+--- !u!1 &396738367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1421567414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &403157182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1460677838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &412239850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1776,11 +1821,11 @@ MonoBehaviour:
   - {fileID: 1353201909}
   - {fileID: 1200231777}
   - {fileID: 465492190}
-  - {fileID: 5236006562697888522}
-  - {fileID: 1917313174}
-  - {fileID: 277670861}
-  - {fileID: 199099887}
-  - {fileID: 378003489}
+  - {fileID: 1632938639}
+  - {fileID: 396738367}
+  - {fileID: 403157182}
+  - {fileID: 990727220}
+  - {fileID: 1134770069}
   - {fileID: 2012888459}
   - {fileID: 858560111}
   - {fileID: 1353201909}
@@ -1809,14 +1854,14 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: The artist prefers portraying technology that is made for personal everyday
-        use. Here we see a portrait of a person mesmerized by virtual reality. Space
-        in the background resembles the unlimited possibilities of virtual worlds.
+      value: 'This drawing is from a young girl who has no prior works. The technique
+        is very basic. However, there are lots of colors used and the characters
+        are surprisingly realistic. The man looks very <i>familiar</i>... '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 125
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1827,8 +1872,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Correct. If the picture was just about the technology, maybe it'd be
-        worth more...
+      value: Exactly! My daughter truly is a genius, isn't she?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1838,33 +1882,39 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: 
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: 
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: Really? I'm pretty sure no one on the planet cares about such pieces
-        enough to create fakes of them.
+      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Immersion
+      value: Me and Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'Ah, here it is! This will be a true test of your skills. '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3620,6 +3670,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &990727220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1762690823}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1006163903
 GameObject:
   m_ObjectHideFlags: 0
@@ -3672,6 +3728,139 @@ MonoBehaviour:
   - {fileID: 1295286793}
   - {fileID: 412239852}
   - {fileID: 1211654771}
+--- !u!1 &1132997747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1132997749}
+  - component: {fileID: 1132997748}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1132997748
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132997747}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b7b4b2a680133024fb3f41f42cf29b25, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.296
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1132997749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132997747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1134770069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 462795684}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1157838953 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
@@ -3980,9 +4169,9 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'The artist creates topical art. Here we see a human and a robot getting
-        married. This was a great victory for both lifeforms last year. The bride
-        looks very happy. '
+      value: 'The artist creates topical art. Here we see a <i>human</i> and a robot
+        getting married. This was a great victory for both lifeforms last year. The
+        bride looks very happy. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4035,6 +4224,11 @@ PrefabInstance:
         type: 3}
       propertyPath: artName
       value: Joy Between Species
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'It was about time for the law to get passed. '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4347,14 +4541,14 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: The artist prefers portraying technology that is made for personal everyday
-        use. Here we see a portrait of a person mesmerized by virtual reality. Space
-        in the background resembles the unlimited possibilities of virtual worlds.
+      value: "The artist has created a few paintings before, changing his style each
+        time. It\u2019s a <i>portrait</i> of a <i>person</i> in a suit with an apple
+        in front of their face. The dreary background creates a heavy atmosphere.  "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 125
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4365,13 +4559,14 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Correct. If the picture was just about the technology, maybe it'd be
-        worth more...
+      value: You got it right! Do you know the original Belgian work or was it a
+        just lucky guess?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: 
+      value: You got it right! Do you know the original Belgian work or was it a
+        just lucky guess?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4386,23 +4581,27 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: Really? I'm pretty sure no one on the planet cares about such pieces
-        enough to create fakes of them.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Immersion
+      value: Man of Son
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: "That\u2019s a depressing piece if I ever saw one. "
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4520,9 +4719,10 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: The artist prefers portraying technology that is made for personal everyday
-        use. Here we see a portrait of a person mesmerized by virtual reality. Space
-        in the background resembles the unlimited possibilities of virtual worlds.
+      value: 'The artist is known for his tranquil pieces portraying natural environments.
+        This piece shows a <i>person</i> doing yoga during sunset. The beach is strongly
+        colored by the setting sun. The work harkens back to the old days when yoga
+        was still popular. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4538,8 +4738,8 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Correct. If the picture was just about the technology, maybe it'd be
-        worth more...
+      value: Correct! Let's sell it like the trash it is and make profits along the
+        way.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4559,23 +4759,30 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: Come on now! This theme is so disgusting I wouldn't show this to my
+        dog.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: Come on now! This theme is so disgusting I wouldn't show this to my
+        dog.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: Really? I'm pretty sure no one on the planet cares about such pieces
-        enough to create fakes of them.
+      value: Wrong. Whoever had the fortitude to look at this long enough to fake
+        it would have my respect, though.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Immersion
+      value: Blessing of the Twins
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: "That\u2019s certainly colorful. But is that enough for artistic merit? "
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4655,9 +4862,10 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: The artist prefers portraying technology that is made for personal everyday
-        use. Here we see a portrait of a person mesmerized by virtual reality. Space
-        in the background resembles the unlimited possibilities of virtual worlds.
+      value: 'The artist prefers portraying technology that is made for personal
+        everyday use. Here we see a <i>portrait</i> of a <i>person</i> mesmerized
+        by virtual reality. Space in the background resembles the unlimited possibilities
+        of virtual worlds. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4711,6 +4919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: artName
       value: Immersion
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'That reminds me, I should upgrade my own headset soon. '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5072,6 +5285,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625237257}
   m_CullTransparentMesh: 0
+--- !u!1 &1632938639 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 385869375}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1762690823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5088,14 +5307,15 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: The artist prefers portraying technology that is made for personal everyday
-        use. Here we see a portrait of a person mesmerized by virtual reality. Space
-        in the background resembles the unlimited possibilities of virtual worlds.
+      value: "It\u2019s a <i>landscape</i> from a vacation posted by a <i>robot</i>
+        on a social media site. The picture has a pleasant atmosphere with the relaxed
+        position of the photographer\u2019s feet. While the subject is <i>nothing
+        extraordinary</i>, the picture has gained much recognition."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 125
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5106,8 +5326,8 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Correct. If the picture was just about the technology, maybe it'd be
-        worth more...
+      value: Indeed. A completely normal vacation pic, but the colors and mood raise
+        it above the cheap ones.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5117,33 +5337,42 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: 
+      value: You went too low. The picture doesn't have anything offensive, so don't
+        value it like that was the case.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: 
+      value: You went too low. The picture doesn't have anything offensive, so don't
+        value it like that was the case.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: Way too much! This vacation picture isn't creative in any sense of the
+        word!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: Way too high! I should be paid to even glance at this monstrosity.
+      value: Way too much! This vacation picture isn't creative in any sense of the
+        word!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: Really? I'm pretty sure no one on the planet cares about such pieces
-        enough to create fakes of them.
+      value: Incorrect! Who would bother faking a photograph?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Immersion
+      value: Mental Repair
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: "And another picture from social media. That\u2019s 2077 for you, I
+        guess. "
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5367,8 +5596,8 @@ PrefabInstance:
         type: 3}
       propertyPath: traineeSays
       value: 'A photograph from a long-running social media service. It shows an
-        alluringly (un)dressed woman posing in front of a bathroom mirror. It was
-        the most popular picture on the platform in 2076. '
+        alluringly (un)dressed <i>person</i> posing in front of a bathroom mirror.
+        It was the most popular picture on the platform in 2076. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5416,6 +5645,11 @@ PrefabInstance:
         type: 3}
       propertyPath: notFake
       value: Who would bother faking a photograph?
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'These were already a thing during my childhood. '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5569,8 +5803,9 @@ PrefabInstance:
         type: 3}
       propertyPath: traineeSays
       value: "The artist has a track record of creating art in an old style. It\u2019s
-        a landscape with many bending objects scattered around. There\u2019s lots
-        of time-related symbolism in the picture. It\u2019s a very dreamlike atmosphere. "
+        a <i>landscape</i> with many bending objects scattered around. There\u2019s
+        lots of time-related symbolism in the picture. It\u2019s a very dreamlike
+        atmosphere. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5626,6 +5861,11 @@ PrefabInstance:
         type: 3}
       propertyPath: artName
       value: The Persistence of Clocks
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: "The clock\u2019s ticking! "
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5891,10 +6131,10 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: "The artist creates paintings that show our age\u2019s greatest inventions.
-        This is a landscape of a race in the skies over Tokyo. The use of lighting
-        creates a realistic but exciting atmosphere, one that is typical to a night
-        out in a megacity. "
+      value: "The artist creates paintings that show <i>our age\u2019s</i> greatest
+        inventions. This is a <i>landscape</i> of a race in the skies over Tokyo.
+        The use of lighting creates a realistic but exciting atmosphere, one that
+        is typical to a night out in a megacity. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5958,7 +6198,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: professorSays
-      value: 
+      value: "Sky drifting! Now that\u2019s a thrilling sport. "
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -6099,7 +6339,8 @@ PrefabInstance:
         type: 3}
       propertyPath: gradeB
       value: Your grade for the first day is B. Not too shabby. There's still room
-        for improvement, though! Be a bit more thoughtful for the next days.
+        for improvement, though! Be a bit more thoughtful of the types and topics
+        of the artworks on the next three days.
       objectReference: {fileID: 0}
     - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
         type: 3}
@@ -6117,8 +6358,9 @@ PrefabInstance:
     - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
         type: 3}
       propertyPath: gradeF
-      value: You failed the first day! This was terrible to witness. The career might
-        not be for you. Oh, you want to prove me wrong? Bring it on.
+      value: You failed the first day! This was terrible to witness. Before you fail
+        even more, you should think about the types and subjects of the works a bit
+        more.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6db43af3406d9ed44a9d122c1f24b459, type: 3}
