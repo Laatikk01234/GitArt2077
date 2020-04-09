@@ -77,7 +77,22 @@ public class Gamelogic : MonoBehaviour
 
     private void SliderLock()
     {
-
+        if (sliderValueText.text == "Fake")
+        {
+            artValueSlider.value = 0;
+        }
+        else if (sliderValueText.text == "Cheap")
+        {
+            artValueSlider.value = 500/3;
+        }
+        else if (sliderValueText.text == "Mediocre")
+        {
+            artValueSlider.value = 500 / 3 * 2;
+        }
+        else if (sliderValueText.text == "Expensive")
+        {
+            artValueSlider.value = expensive;
+        }
     }
     public void Start()
     {
