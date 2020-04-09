@@ -7,7 +7,6 @@ using TMPro;
 
 public class TypeText : MonoBehaviour 
 {
-
 	private TextMeshPro textfield;
 	string lastSpeech;
     string currentSpeech;
@@ -19,9 +18,19 @@ public class TypeText : MonoBehaviour
     private Image panelImage;
 
     public float TypeDelay;
-    
+
+    public GameObject traineeObj;
+    private Animator trainAnim;
+
+    public GameObject profObj;
+    private Animator profAnim;
+
 
     void Awake (){
+        
+        trainAnim = traineeObj.GetComponent<Animator>();
+        profAnim = profObj.GetComponent<Animator>();
+
         textfield = GetComponent<TextMeshPro> ();
         speechTyped = false;
 
@@ -46,6 +55,8 @@ public class TypeText : MonoBehaviour
                 textfield.text = "";
 
 		        StartCoroutine ("PlayText");
+                trainAnim.SetBool("IsTalking", true);
+                profAnim.SetBool("IsTalkingToo", true);
             }
             
 	}
@@ -57,6 +68,9 @@ public class TypeText : MonoBehaviour
 			yield return new WaitForSeconds (TypeDelay);
 		}
     speechTyped = false;
+    
+    trainAnim.SetBool("IsTalking", false);
+    profAnim.SetBool("IsTalkingToo", false);
 	}
 
 }
