@@ -22,6 +22,14 @@ public class Gamelogic : MonoBehaviour
     public GameObject darknessTextObject;
     private TextMeshProUGUI darknessText;
     private int DayCount = 1;
+
+    private AudioSource buttonAudio;
+
+    private AudioSource audioSource;
+
+    public AudioClip curtainsSoundStart;
+    public AudioClip curtainsSound;
+
     //Andrea messing up end
 
     public List<GameObject> art;
@@ -99,16 +107,6 @@ public class Gamelogic : MonoBehaviour
         subGradeGiverList = subGradeObject.GetComponent<SubGradeList>();
         //subGradeList.subGrades[day].GetComponent<GradeTextValues>().gradeA;
         finalGradeGiver = FinalGradeObject.GetComponent<FinalGrade>();
-
-
-        // Andrea messing up 
-        anim = curtainsObject.GetComponent<Animator>();
-        animcanvas = canvasObject.GetComponent<Animator>();
-
-        darknessText = darknessTextObject.GetComponent<TextMeshProUGUI>();
-
-        animcanvas.SetTrigger("IntroRoll");
-        // Andrea messing up end
         
         
         // how to introduce the game screen might go here?
@@ -125,6 +123,18 @@ public class Gamelogic : MonoBehaviour
         Button btn = confirm.GetComponent<Button>();
         btn.onClick.AddListener(StartOrSubmitOrNext);
         buttonText = confirm.GetComponentInChildren<Text>();
+
+        // Andrea messing up 
+        anim = curtainsObject.GetComponent<Animator>();
+        animcanvas = canvasObject.GetComponent<Animator>();
+
+        darknessText = darknessTextObject.GetComponent<TextMeshProUGUI>();
+
+        animcanvas.SetTrigger("IntroRoll");
+
+        buttonAudio = btn.GetComponent<AudioSource>();
+        audioSource = this.GetComponent<AudioSource>();
+        // Andrea messing up end
     }
 
     IEnumerator WaitAndNextPainting()
@@ -191,6 +201,7 @@ public class Gamelogic : MonoBehaviour
 
                 // slider up?
                 anim.SetBool("DayStarted", true);
+                audioSource.PlayOneShot(curtainsSoundStart);
 
                 NextPainting();
                 //curtains open
@@ -201,7 +212,6 @@ public class Gamelogic : MonoBehaviour
                 // animate slider to go down
                 CurrentArtpieceGradeAndResponse();
                 buttonText.text = "Next";
-                //anim.SetBool("DayStarted", false);
             }
             else if (buttonText.text == "Ok")
             {
@@ -214,7 +224,7 @@ public class Gamelogic : MonoBehaviour
              
                 SwitchSpeechBubbleVisibility();
                 NextPainting();
-                //anim.SetBool("DayStarted", false);
+
             }
             else if (buttonText.text == "Next")
             {
@@ -240,11 +250,12 @@ public class Gamelogic : MonoBehaviour
                 else
                 {
 
-
                     //Andrea messing up
                     anim.SetTrigger("ClickNext");
                     anim.SetBool("DayStarted", false);
+                    audioSource.PlayOneShot(curtainsSound);
                     //Andrea messing up end
+
                     StartCoroutine(WaitAndNextPainting());
                     //curtains close
                     //NextPainting();
@@ -262,8 +273,6 @@ public class Gamelogic : MonoBehaviour
     {
         
         anim.SetBool("DayStarted", false);
-        //animcanvas.SetBool("RollIntro", false);
-
 
         currentArtinformation = art[listIndexAndArtpiecenumber].GetComponent<Artinformation>();
         currentPicture.sprite = currentArtinformation.picture;
@@ -466,4 +475,10 @@ public class Gamelogic : MonoBehaviour
             professorSpeechbubble.SetActive(false);
     }
     }
+
+    //plays button sound on click - Andrea
+    public void PlayButton(){
+        buttonAudio.Play();
+    }
+
 }
