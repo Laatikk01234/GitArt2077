@@ -36,7 +36,7 @@ public class TypeText : MonoBehaviour
         //Debug.Log(speechTyped);
 		currentSpeech = textfield.text;
         Color panelColor = panelImage.color;
-        Debug.Log(panelColor.a);
+        //Debug.Log(panelColor.a);
 
             if (speechTyped == false && currentSpeech != lastSpeech && panelColor.a == 0)
             {

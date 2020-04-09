@@ -31,7 +31,7 @@ public class MainMenuLogic : MonoBehaviour
     {
         if (canClick)
         {
-            SceneManager.LoadScene("Main Game");
+            SceneManager.LoadScene("Introduction");
         }
     }
 
