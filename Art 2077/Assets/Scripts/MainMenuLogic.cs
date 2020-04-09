@@ -5,20 +5,49 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuLogic : MonoBehaviour
 {
-    
+    public GameObject credits;
+    private bool canClick;
+    private void Update()
+    {
+        if (canClick == false)
+        {
+            if (Input.GetMouseButtonUp(0))
+            {
+                credits.SetActive(false);
+            }
+        }
+        if (credits.activeSelf)
+        {
+            canClick = false;
+        }
+        else
+        {
+            canClick = true;
+        }
+
+
+    }
     public void Play()
     {
-        SceneManager.LoadScene("Main Game");
+        if (canClick)
+        {
+            SceneManager.LoadScene("Main Game");
+        }
     }
 
     public void Credits()
     {
-        // or popup ui?
-        SceneManager.LoadScene("Credits");
+        if (canClick)
+        {
+            credits.SetActive(true);
+        }
     }
 
     public void Quit()
     {
-        Application.Quit();
+        if (canClick)
+        {
+            Application.Quit();
+        }
     }
 }
