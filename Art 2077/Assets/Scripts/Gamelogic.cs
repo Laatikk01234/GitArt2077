@@ -61,10 +61,10 @@ public class Gamelogic : MonoBehaviour
 
 
     // art value constants
-    private const int fake = 50;
-    private const int cheap = 200;
-    private const int mediocre = 350;
-    private const int expensive = 500;
+    private const int fake = 0;
+    private const int cheap = 1;
+    private const int mediocre = 2;
+    private const int expensive = 3;
 
     private const int gamelength = 20;
 
@@ -83,15 +83,15 @@ public class Gamelogic : MonoBehaviour
         }
         else if (sliderValueText.text == "Cheap")
         {
-            artValueSlider.value = 500/3;
+            artValueSlider.value = 1;
         }
         else if (sliderValueText.text == "Mediocre")
         {
-            artValueSlider.value = 500 / 3 * 2;
+            artValueSlider.value = 2;
         }
         else if (sliderValueText.text == "Expensive")
         {
-            artValueSlider.value = expensive;
+            artValueSlider.value = 3;
         }
     }
     public void Start()
@@ -146,20 +146,20 @@ public class Gamelogic : MonoBehaviour
     public void SliderValueChange()
     {
         //Debug.Log(artValueSlider.value);
-        int curValue = (int)artValueSlider.value;
-        if (curValue <= fake)
+        double curValue = artValueSlider.value;
+        if (curValue <= fake + 0.5)
         {
             sliderValueText.text = "Fake";
         }
-        else if (curValue <= cheap)
+        else if (curValue <= cheap + 0.5)
         {
             sliderValueText.text = "Cheap";
         }
-        else if (curValue <= mediocre)
+        else if (curValue <= mediocre + 0.5)
         {
             sliderValueText.text = "Mediocre";
         }
-        else if (curValue <= expensive)
+        else if (curValue <= expensive + 0.5)
         {
             sliderValueText.text = "Expensive";
         }
@@ -269,7 +269,7 @@ public class Gamelogic : MonoBehaviour
         currentPicture.sprite = currentArtinformation.picture;
         traineeText.text = currentArtinformation.traineeSays;
         professorText.text = currentArtinformation.professorSays;
-        artValueSlider.value = 250;
+        artValueSlider.value = 1.5F;
         sliderValueText.text = "Choose art value";
         buttonText.text = "Submit";
     }
@@ -301,17 +301,17 @@ public class Gamelogic : MonoBehaviour
                 professorText.text = currentArtinformation.itsFake;
                 ArtpieceGrade = 0;
             }
-            else if (picVal < cheap)
+            else if (picVal == cheap)
             {
                 professorText.text = currentArtinformation.correct;
                 ArtpieceGrade = 2;
             }
-            else if (picVal < mediocre) 
+            else if (picVal == mediocre) 
             {
                 professorText.text = currentArtinformation.tooLow;
                 ArtpieceGrade = 1;
             }
-            else if (picVal <= expensive)
+            else if (picVal == expensive)
             {
                 professorText.text = currentArtinformation.wayTooLow;
                 ArtpieceGrade = 0;
@@ -324,17 +324,17 @@ public class Gamelogic : MonoBehaviour
                 professorText.text = currentArtinformation.itsFake;
                 ArtpieceGrade = 0;
             }
-            else if (picVal < cheap)
+            else if (picVal == cheap)
             {
                 professorText.text = currentArtinformation.tooHigh;
                 ArtpieceGrade = 1;
             }
-            else if (picVal < mediocre)
+            else if (picVal == mediocre)
             {
                 professorText.text = currentArtinformation.correct;
                 ArtpieceGrade = 2;
             }
-            else if (picVal <= expensive)
+            else if (picVal == expensive)
             {
                 professorText.text = currentArtinformation.tooLow;
                 ArtpieceGrade = 1;
@@ -347,17 +347,17 @@ public class Gamelogic : MonoBehaviour
                 professorText.text = currentArtinformation.itsFake;
                 ArtpieceGrade = 0;
             }
-            else if (picVal < cheap)
+            else if (picVal == cheap)
             {
                 professorText.text = currentArtinformation.wayTooHigh;
                 ArtpieceGrade = 0;
             }
-            else if (picVal < mediocre)
+            else if (picVal == mediocre)
             {
                 professorText.text = currentArtinformation.tooHigh;
                 ArtpieceGrade = 1;
             }
-            else if (picVal <= expensive)
+            else if (picVal == expensive)
             {
                 professorText.text = currentArtinformation.correct;
                 ArtpieceGrade = 2;
