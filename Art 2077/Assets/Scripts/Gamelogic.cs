@@ -218,7 +218,7 @@ public class Gamelogic : MonoBehaviour
 
                 // darkness text changes - Andrea
                     DayCount = DayCount + 1;
-                    darknessText.text = "DAY " + DayCount;
+                    darknessText.text = "day " + DayCount;
                 
                 buttonText.text = "Start";
              
