@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using TMPro;
 
-public class TypeText : MonoBehaviour 
+public class TypeProfessorText : MonoBehaviour 
 {
 	private TextMeshPro textfield;
 	string lastSpeech;
@@ -61,16 +61,16 @@ public class TypeText : MonoBehaviour
 	{
 		foreach (char c in currentSpeech) 
 		{
-            trainAnim.SetBool("IsTalking", true);
-            //profAnim.SetBool("IsTalkingToo", true);
+            //trainAnim.SetBool("IsTalking", true);
+            profAnim.SetBool("IsTalkingToo", true);
 			textfield.text += c;
 			yield return new WaitForSeconds (TypeDelay);
 		}
     speechTyped = false;
     
 
-    trainAnim.SetBool("IsTalking", false);
-    //profAnim.SetBool("IsTalkingToo", false);
+   // trainAnim.SetBool("IsTalking", false);
+    profAnim.SetBool("IsTalkingToo", false);
 	}
 
 }
