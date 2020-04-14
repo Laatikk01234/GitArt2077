@@ -12,7 +12,6 @@ public class Gamelogic : MonoBehaviour
     public GameObject FinalGradeObject;
     private FinalGrade finalGradeGiver;
 
-
     //Andrea messing up
     public GameObject curtainsObject;
     public GameObject canvasObject;
@@ -29,6 +28,7 @@ public class Gamelogic : MonoBehaviour
 
     public AudioClip curtainsSoundStart;
     public AudioClip curtainsSound;
+
 
     //Andrea messing up end
 
@@ -192,26 +192,26 @@ public class Gamelogic : MonoBehaviour
         //NextPainting();
         if (waitForClick == false)
         {
+
             if (buttonText.text == "Start")
             {
                 //currentPicture.sprite = currentArtinformation.picture;
                 //traineeText.text = currentArtinformation.traineeSays;
                 //buttonText.text = "Submit";
 
-
-                // slider up?
+                //curtain animation opening for the first time
+                animcanvas.SetTrigger("FirstDaySlideIn");
                 anim.SetBool("DayStarted", true);
                 audioSource.PlayOneShot(curtainsSoundStart);
 
                 NextPainting();
-                //curtains open
             }
             // derbing for testing
             else if (buttonText.text == "Submit" && sliderValueText.text != "!!Choose art value")
             {
-                // animate slider to go down
                 CurrentArtpieceGradeAndResponse();
                 buttonText.text = "Next";
+                
             }
             else if (buttonText.text == "Ok")
             {
@@ -245,16 +245,15 @@ public class Gamelogic : MonoBehaviour
                     currentPicture.sprite = null;
                     GiveSubGrade();
 
-
                 }
                 else
                 {
 
-                    //Andrea messing up
+                    //Andrea 
                     anim.SetTrigger("ClickNext");
                     anim.SetBool("DayStarted", false);
                     audioSource.PlayOneShot(curtainsSound);
-                    //Andrea messing up end
+                    //Andrea end
 
                     StartCoroutine(WaitAndNextPainting());
                     //curtains close
@@ -271,7 +270,10 @@ public class Gamelogic : MonoBehaviour
 
     private void NextPainting()
     {
-        
+        //slider is interactable
+        artValueSlider.interactable = true;
+
+        //not first time curtains open
         anim.SetBool("DayStarted", false);
 
         currentArtinformation = art[listIndexAndArtpiecenumber].GetComponent<Artinformation>();
@@ -286,6 +288,9 @@ public class Gamelogic : MonoBehaviour
 
     private void CurrentArtpieceGradeAndResponse()
     {
+        // slider is not interactable
+        artValueSlider.interactable = false;
+        
         //Debug.Log();
         // A = 10, B = 8, C = 6, D = 4, F = 2;
         // max 2p per answer, min 0
