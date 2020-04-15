@@ -340,10 +340,15 @@ Transform:
   - {fileID: 1511215838}
   - {fileID: 693514503}
   - {fileID: 196407494}
-  - {fileID: 303762609}
-  - {fileID: 1157838953}
   - {fileID: 1892201}
   - {fileID: 1476335316}
+  - {fileID: 1157838953}
+  - {fileID: 303762609}
+  - {fileID: 989817098}
+  - {fileID: 2111362028}
+  - {fileID: 1869843313}
+  - {fileID: 2057764283}
+  - {fileID: 565023804}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1942,15 +1947,15 @@ MonoBehaviour:
   - {fileID: 1200231777}
   - {fileID: 465492190}
   - {fileID: 1632938639}
-  - {fileID: 396738367}
-  - {fileID: 403157182}
   - {fileID: 990727220}
   - {fileID: 1134770069}
-  - {fileID: 2012888459}
-  - {fileID: 858560111}
-  - {fileID: 1353201909}
-  - {fileID: 1200231777}
-  - {fileID: 465492190}
+  - {fileID: 403157182}
+  - {fileID: 396738367}
+  - {fileID: 989817097}
+  - {fileID: 2111362027}
+  - {fileID: 1869843312}
+  - {fileID: 2057764282}
+  - {fileID: 565023803}
   artLocation: {fileID: 848992956}
   feedbackBubble: {fileID: 479364902}
   traineeSpeechbubble: {fileID: 571122143}
@@ -2054,7 +2059,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &462795684
+--- !u!1001 &451464118
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2083,7 +2088,7 @@ PrefabInstance:
         type: 3}
       propertyPath: picture
       value: 
-      objectReference: {fileID: 21300000, guid: 3ce5683034ee91845813c2d113271b18,
+      objectReference: {fileID: 21300000, guid: 2f3fc00f8d82d3b4fb0b6b27fd047dd5,
         type: 3}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2170,7 +2175,7 @@ PrefabInstance:
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2190,7 +2195,147 @@ PrefabInstance:
     - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_Name
-      value: Artpiece15
+      value: Artpiece16
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
+--- !u!1001 &462795684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: 'This drawing is from a young girl who has no prior works. The technique
+        is very basic. However, there are lots of colors used and the characters
+        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: c8ca2c014332eb14eb7eed98941ed549,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Exactly! My daughter truly is a genius, isn't she?
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Me and Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'Ah, here it is! This will be a true test of your skills. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
@@ -2367,6 +2512,18 @@ Transform:
   m_Father: {fileID: 1238333007}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &565023803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2072207520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &565023804 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2072207520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &571122143
 GameObject:
   m_ObjectHideFlags: 0
@@ -3425,6 +3582,146 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &901793479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: 'This drawing is from a young girl who has no prior works. The technique
+        is very basic. However, there are lots of colors used and the characters
+        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 0ac2f1c879909404abaf4cfab088eac6,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Exactly! My daughter truly is a genius, isn't she?
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Me and Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'Ah, here it is! This will be a true test of your skills. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece19
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1 &913127743
 GameObject:
   m_ObjectHideFlags: 0
@@ -3877,6 +4174,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &989817097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 451464118}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &989817098 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 451464118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &990727220 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
@@ -3935,6 +4244,146 @@ MonoBehaviour:
   - {fileID: 1295286793}
   - {fileID: 412239852}
   - {fileID: 1211654771}
+--- !u!1001 &1061591776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: 'This drawing is from a young girl who has no prior works. The technique
+        is very basic. However, there are lots of colors used and the characters
+        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 3311eca21d1277742b411116f4cff102,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Exactly! My daughter truly is a genius, isn't she?
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Me and Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'Ah, here it is! This will be a true test of your skills. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1 &1132997747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4749,6 +5198,146 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1295286791}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1303413335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: 'This drawing is from a young girl who has no prior works. The technique
+        is very basic. However, there are lots of colors used and the characters
+        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 10f6353bae3a61e46ad7e1d55489977c,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Exactly! My daughter truly is a genius, isn't she?
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Me and Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'Ah, here it is! This will be a true test of your skills. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece17
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
 --- !u!1 &1331147217
 GameObject:
   m_ObjectHideFlags: 0
@@ -5105,7 +5694,7 @@ PrefabInstance:
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5125,7 +5714,7 @@ PrefabInstance:
     - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_Name
-      value: Artpiece12
+      value: Artpiece15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
@@ -5286,7 +5875,7 @@ PrefabInstance:
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5306,7 +5895,7 @@ PrefabInstance:
     - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_Name
-      value: Artpiece13
+      value: Artpiece14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
@@ -5973,7 +6562,7 @@ PrefabInstance:
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5993,10 +6582,22 @@ PrefabInstance:
     - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: m_Name
-      value: Artpiece14
+      value: Artpiece12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
+--- !u!1 &1869843312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1061591776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1869843313 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1061591776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1901828297
 GameObject:
   m_ObjectHideFlags: 0
@@ -6869,6 +7470,170 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2057764282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 901793479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2057764283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 901793479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2072207520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68563745}
+    m_Modifications:
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: Picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 06544fd0f48ed3640ba8fa08383a42a9,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: traineeSays
+      value: 'This drawing is from a young girl who has no prior works. The technique
+        is very basic. However, there are lots of colors used and the characters
+        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: pictureValue
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: picture
+      value: 
+      objectReference: {fileID: 21300000, guid: 3ce5683034ee91845813c2d113271b18,
+        type: 3}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: correct
+      value: Exactly! My daughter truly is a genius, isn't she?
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: itsFake
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooLow
+      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+        is much more valuable than that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: wayTooHigh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: notFake
+      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: artName
+      value: Me and Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: professorSays
+      value: 'Ah, here it is! This will be a true test of your skills. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7571139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07613775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Artpiece20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 873cecc65bb62c346bfc163a4417f2b0, type: 3}
+--- !u!1 &2111362027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5236006562697888522, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1303413335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2111362028 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1303413335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1982938192146295782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
