@@ -14,7 +14,7 @@ TagManager:
   - 
   - 
   - Credits
-  - 
+  - Escmenu
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Speech bubble
     uniqueID: 1414378409
+    locked: 0
+  - name: EscMenu
+    uniqueID: 3389517309
     locked: 0

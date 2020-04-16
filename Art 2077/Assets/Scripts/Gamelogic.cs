@@ -1,12 +1,18 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Gamelogic : MonoBehaviour
 {
+    public GameObject endingInfo;
+    private bool allfakes = true;
+    private bool started = false;
+
     public GameObject subGradeObject;
     private SubGradeList subGradeGiverList;
     public GameObject FinalGradeObject;
@@ -72,15 +78,36 @@ public class Gamelogic : MonoBehaviour
     private const int fake = 0;
     private const int cheap = 1;
     private const int mediocre = 2;
-    private const int expensive = 3;
+    private const int Valuable = 3;
 
     private const int gamelength = 20;
 
     private bool waitForClick = false;
 
+    public GameObject escMenu;
+
     public void Update()
     {
+        if (Input.GetKeyDown("escape"))
+        {
+            if (escMenu.activeSelf)
+            {
+                escMenu.SetActive(false);
+            }
+            else
+            {
+                escMenu.SetActive(true);
+            }
+            
+        }
         SliderLock();
+        if (!started)
+        {
+            if (Time.timeSinceLevelLoad > 60)
+            {
+                EndGame();
+            }
+        }
     }
 
     private void SliderLock()
@@ -97,7 +124,7 @@ public class Gamelogic : MonoBehaviour
         {
             artValueSlider.value = 2;
         }
-        else if (sliderValueText.text == "Expensive")
+        else if (sliderValueText.text == "Valuable")
         {
             artValueSlider.value = 3;
         }
@@ -137,21 +164,6 @@ public class Gamelogic : MonoBehaviour
         // Andrea messing up end
     }
 
-    IEnumerator WaitAndNextPainting()
-    {
-        waitForClick = true;
-        //float halfOfAnimationMaybe = 0.5F;
-        yield return new WaitForSeconds(0.5F);
-        NextPainting();
-        // text animation here
-        //pause
-        // text animation here
-        // slider back up
-        //pause
-
-        waitForClick = false;
-
-    }
 
     public void SliderValueChange()
     {
@@ -169,9 +181,9 @@ public class Gamelogic : MonoBehaviour
         {
             sliderValueText.text = "Mediocre";
         }
-        else if (curValue <= expensive + 0.5)
+        else if (curValue <= Valuable + 0.5)
         {
-            sliderValueText.text = "Expensive";
+            sliderValueText.text = "Valuable";
         }
 
     }
@@ -192,7 +204,6 @@ public class Gamelogic : MonoBehaviour
         //NextPainting();
         if (waitForClick == false)
         {
-
             if (buttonText.text == "Start")
             {
                 //currentPicture.sprite = currentArtinformation.picture;
@@ -207,8 +218,9 @@ public class Gamelogic : MonoBehaviour
                 NextPainting();
             }
             // derbing for testing
-            else if (buttonText.text == "Submit" && sliderValueText.text != "!!Choose art value")
+            else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value")
             {
+                started = true;
                 CurrentArtpieceGradeAndResponse();
                 buttonText.text = "Next";
                 
@@ -233,8 +245,8 @@ public class Gamelogic : MonoBehaviour
                 if (listIndexAndArtpiecenumber == gamelength)
                 {
                     // Game over -> ending screen
-
-                    GiveFinalGrade();
+                    EndGame();
+                    //GiveFinalGrade();
                 }
                 else if (listIndexAndArtpiecenumber % 5 == 0)
                 {
@@ -268,6 +280,23 @@ public class Gamelogic : MonoBehaviour
 
     }
 
+    IEnumerator WaitAndNextPainting()
+    {
+        waitForClick = true;
+        //float halfOfAnimationMaybe = 0.5F;
+        yield return new WaitForSeconds(0.5F);
+        NextPainting();
+        // text animation here
+        //pause
+        // text animation here
+        // slider back up
+        //pause
+
+        waitForClick = false;
+
+    }
+
+
     private void NextPainting()
     {
         //slider is interactable
@@ -278,11 +307,21 @@ public class Gamelogic : MonoBehaviour
 
         currentArtinformation = art[listIndexAndArtpiecenumber].GetComponent<Artinformation>();
         currentPicture.sprite = currentArtinformation.picture;
-        traineeText.text = currentArtinformation.traineeSays;
-        professorText.text = currentArtinformation.professorSays;
+
         artValueSlider.value = 1.5F;
         sliderValueText.text = "Choose art value";
         buttonText.text = "Submit";
+
+        StartCoroutine(WaitSpeeches());
+        //traineeText.text = currentArtinformation.traineeSays;
+        //professorText.text = currentArtinformation.professorSays;
+    }
+
+    IEnumerator WaitSpeeches()
+    {
+        traineeText.text = currentArtinformation.traineeSays;
+        yield return new WaitForSeconds(currentArtinformation.traineeSays.Length * 0.02F + 0.10F);
+        professorText.text = currentArtinformation.professorSays;
     }
 
 
@@ -310,6 +349,7 @@ public class Gamelogic : MonoBehaviour
         }
         else if (sliderValueText.text == "Cheap")
         {
+            allfakes = false;
             if (picVal == fake)
             {
                 professorText.text = currentArtinformation.itsFake;
@@ -325,7 +365,7 @@ public class Gamelogic : MonoBehaviour
                 professorText.text = currentArtinformation.tooLow;
                 ArtpieceGrade = 1;
             }
-            else if (picVal == expensive)
+            else if (picVal == Valuable)
             {
                 professorText.text = currentArtinformation.wayTooLow;
                 ArtpieceGrade = 0;
@@ -333,6 +373,7 @@ public class Gamelogic : MonoBehaviour
         }
         else if (sliderValueText.text == "Mediocre")
         {
+            allfakes = false;
             if (picVal == fake)
             {
                 professorText.text = currentArtinformation.itsFake;
@@ -348,14 +389,15 @@ public class Gamelogic : MonoBehaviour
                 professorText.text = currentArtinformation.correct;
                 ArtpieceGrade = 2;
             }
-            else if (picVal == expensive)
+            else if (picVal == Valuable)
             {
                 professorText.text = currentArtinformation.tooLow;
                 ArtpieceGrade = 1;
             }
         }
-        else if (sliderValueText.text == "Expensive")
+        else if (sliderValueText.text == "Valuable")
         {
+            allfakes = false;
             if (picVal == fake)
             {
                 professorText.text = currentArtinformation.itsFake;
@@ -371,7 +413,7 @@ public class Gamelogic : MonoBehaviour
                 professorText.text = currentArtinformation.tooHigh;
                 ArtpieceGrade = 1;
             }
-            else if (picVal == expensive)
+            else if (picVal == Valuable)
             {
                 professorText.text = currentArtinformation.correct;
                 ArtpieceGrade = 2;
@@ -381,15 +423,28 @@ public class Gamelogic : MonoBehaviour
         DailySubGrade[day] = DailySubGrade[day] + ArtpieceGrade;
     }
 
+    public void EndGame()
+    {
+
+        //update ddol
+        TotalGradeCounter();
+        endingInfo.GetComponent<EndingInfo>().SetVariables(allfakes, started, totalGrade);
+        SceneManager.LoadScene("Final Scene");
+    }
+
+    public void TotalGradeCounter()
+    {
+        foreach (int x in DailySubGrade)
+        {
+            totalGrade += x;
+        }
+    }
     private void GiveFinalGrade()
     {
         //Final grade mechanics?
         SwitchSpeechBubbleVisibility();
         string grade;
-        foreach (int x in DailySubGrade)
-        {
-            totalGrade += x;
-        }
+        TotalGradeCounter();
         if (totalGrade == 50)
         {
             grade = finalGradeGiver.finalGrades[0];

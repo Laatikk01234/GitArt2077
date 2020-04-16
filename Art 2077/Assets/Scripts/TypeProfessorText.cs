@@ -90,11 +90,11 @@ public class TypeProfessorText : MonoBehaviour
         //make button noninteractable when prof is talking
         if (someoneTalking){
             button.interactable = false;
-            Debug.Log("Professor is talking");
+            //Debug.Log("Professor is talking");
         }
         else {
             button.interactable = true;
-            Debug.Log("Noone is talking");
+            //Debug.Log("Noone is talking");
         }
 
 	}
