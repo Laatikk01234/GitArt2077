@@ -253,6 +253,7 @@ public class Gamelogic : MonoBehaviour
                 {
 
                 // Game over -> ending screen
+                // aosdkopasdkpoaskdop
                 GiveSubGrade();
                 EndGame();
                 //GiveFinalGrade();
