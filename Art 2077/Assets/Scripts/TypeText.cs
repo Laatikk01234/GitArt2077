@@ -20,10 +20,13 @@ public class TypeText : MonoBehaviour
     public GameObject trainObj;
     private Animator trainAnim;
 
-    private AudioSource audioSource;
+    private AudioSource audioSourceTrain;
     private MeshRenderer txtrnd;
     public GameObject trainBubbleObj;
     private SpriteRenderer spriteRenderer;
+
+    public Button button;
+    private bool traineeTalking;
 
     void Awake (){
         
@@ -44,7 +47,9 @@ public class TypeText : MonoBehaviour
         panelImage = panelObject.GetComponent<Image>();
         Color panelColor = panelImage.color;
 
-        audioSource = trainObj.GetComponentInChildren<AudioSource>();
+        audioSourceTrain = trainObj.GetComponent<AudioSource>();
+
+        traineeTalking = false;
 
     }
 
@@ -74,16 +79,27 @@ public class TypeText : MonoBehaviour
 		        StartCoroutine ("PlayText");
                 
                 //plays talking soundeffect
-                audioSource.Play();
+                audioSourceTrain.Play();
             }
 
+        //make button noninteractable when prof is talking
+        //if (traineeTalking){
+        //   button.interactable = false;
+        //    Debug.Log("Trainee is talking");
+        //}
+        //else {
+         //  button.interactable = true;
+        //   Debug.Log("Noone is talking");
+        //}
             
 	}
+
 	IEnumerator PlayText()
 	{
 		foreach (char c in currentSpeech) 
 		{
             trainAnim.SetBool("IsTalking", true);
+            traineeTalking = true;
             //profAnim.SetBool("IsTalkingToo", true);
 			textfield.text += c;
 			yield return new WaitForSeconds (TypeDelay);
@@ -93,6 +109,7 @@ public class TypeText : MonoBehaviour
 
     trainAnim.SetBool("IsTalking", false);
     //profAnim.SetBool("IsTalkingToo", false);
+    traineeTalking = false;
 	}
 
 }

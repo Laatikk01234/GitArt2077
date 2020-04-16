@@ -35,6 +35,7 @@ public class Gamelogic : MonoBehaviour
     public AudioClip curtainsSoundStart;
     public AudioClip curtainsSound;
 
+    public AudioSource audioSourceProf;
 
     //Andrea messing up end
 
@@ -82,7 +83,7 @@ public class Gamelogic : MonoBehaviour
 
     private const int gamelength = 20;
 
-    private bool waitForClick = false;
+    //private bool waitForClick = false;
 
     public GameObject escMenu;
 
@@ -161,6 +162,8 @@ public class Gamelogic : MonoBehaviour
 
         buttonAudio = btn.GetComponent<AudioSource>();
         audioSource = this.GetComponent<AudioSource>();
+
+        //audioSourceProf = Get
         // Andrea messing up end
     }
 
@@ -202,9 +205,9 @@ public class Gamelogic : MonoBehaviour
         // changed to submit after clicking next, changed to start at the change of week?
         //currentArtinformation = art[listIndexAndDay].GetComponent<Artinformation>();
         //NextPainting();
-        if (waitForClick == false)
-        {
-            if (buttonText.text == "Start")
+        //if (waitForClick == false)
+
+        if (buttonText.text == "Start")
             {
                 //currentPicture.sprite = currentArtinformation.picture;
                 //traineeText.text = currentArtinformation.traineeSays;
@@ -215,22 +218,23 @@ public class Gamelogic : MonoBehaviour
                 anim.SetBool("DayStarted", true);
                 audioSource.PlayOneShot(curtainsSoundStart);
 
-                NextPainting();
+                //NextPainting();
+                StartCoroutine(WaitAndNextPainting());
             }
-            // derbing for testing
-            else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value")
+            //derbing for testing
+            else if (buttonText.text == "Submit" && sliderValueText.text != "Choose art value" )
             {
                 started = true;
-                CurrentArtpieceGradeAndResponse();
-                buttonText.text = "Next";
+               CurrentArtpieceGradeAndResponse();
+               buttonText.text = "Next";
                 
-            }
+           }
             else if (buttonText.text == "Ok")
             {
 
                 // darkness text changes - Andrea
                     DayCount = DayCount + 1;
-                    darknessText.text = "day " + DayCount;
+                    darknessText.text = "DAY " + DayCount;
                 
                 buttonText.text = "Start";
              
@@ -240,10 +244,13 @@ public class Gamelogic : MonoBehaviour
             }
             else if (buttonText.text == "Next")
             {
+                professorText.text = "";
                 // Curtains close
                 listIndexAndArtpiecenumber += 1;
+
                 if (listIndexAndArtpiecenumber == gamelength)
                 {
+                
                     // Game over -> ending screen
                     EndGame();
                     //GiveFinalGrade();
@@ -275,14 +282,14 @@ public class Gamelogic : MonoBehaviour
 
                 }
             }
-        }
 
 
     }
 
     IEnumerator WaitAndNextPainting()
     {
-        waitForClick = true;
+        //waitForClick = true;
+        confirm.interactable = false;
         //float halfOfAnimationMaybe = 0.5F;
         yield return new WaitForSeconds(0.5F);
         NextPainting();
@@ -292,7 +299,7 @@ public class Gamelogic : MonoBehaviour
         // slider back up
         //pause
 
-        waitForClick = false;
+        //waitForClick = false;
 
     }
 
@@ -319,9 +326,13 @@ public class Gamelogic : MonoBehaviour
 
     IEnumerator WaitSpeeches()
     {
+        //waitForClick = true;
         traineeText.text = currentArtinformation.traineeSays;
         yield return new WaitForSeconds(currentArtinformation.traineeSays.Length * 0.02F + 0.10F);
         professorText.text = currentArtinformation.professorSays;
+        yield return new WaitForSeconds(currentArtinformation.professorSays.Length * 0.02F + 0.10F);
+        //waitForClick = false;
+        confirm.interactable = true;
     }
 
 
@@ -330,6 +341,7 @@ public class Gamelogic : MonoBehaviour
         // slider is not interactable
         artValueSlider.interactable = false;
         
+
         //Debug.Log();
         // A = 10, B = 8, C = 6, D = 4, F = 2;
         // max 2p per answer, min 0
@@ -419,9 +431,23 @@ public class Gamelogic : MonoBehaviour
                 ArtpieceGrade = 2;
             }
         }
-
         DailySubGrade[day] = DailySubGrade[day] + ArtpieceGrade;
+
+        StartCoroutine(WaitForSomeRandomTime());
     }
+
+    IEnumerator WaitForSomeRandomTime()
+        {
+        
+        confirm.interactable = false;
+        //waitForClick = true;
+        //traineeText.text = currentArtinformation.traineeSays;
+        //yield return new WaitForSeconds(currentArtinformation.traineeSays.Length * 0.02F + 0.10F);
+        yield return new WaitForSeconds(currentArtinformation.correct.Length * 0.02F + 0.10F);
+        Debug.Log(currentArtinformation.correct.Length* 0.02F + 0.10F);
+        //waitForClick = false;
+        confirm.interactable = true;
+        }
 
     public void EndGame()
     {

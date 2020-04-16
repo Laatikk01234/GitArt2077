@@ -26,15 +26,21 @@ public class FinalSceneManager : MonoBehaviour
     public string normalEndingF;
     public Sprite normalEndingFSprite;
     // Start is called before the first frame update
+
+    private AudioSource audioSource;
+
     void Start()
     {
 
         endingInfo = GameObject.Find("DontDestroyOnLoad");
         EndingInfo ending = endingInfo.GetComponent<EndingInfo>();
 
+        audioSource = this.GetComponent<AudioSource>();
+
 
         if (ending.fakeEnding)
         {
+            audioSource.Play();
             textlocation.GetComponent<TextMeshProUGUI>().text = fakeEndingText;
             extraSpriteLocation.GetComponent<SpriteRenderer>().sprite = fakeEndingSprite;
         }

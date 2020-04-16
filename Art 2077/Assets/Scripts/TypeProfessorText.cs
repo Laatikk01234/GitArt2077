@@ -26,7 +26,7 @@ public class TypeProfessorText : MonoBehaviour
     public Button button;
     private bool someoneTalking;
 
-    private AudioSource audioSource;
+    private AudioSource audioSourceProf;
 
     private MeshRenderer textRenderer;
     private SpriteRenderer spriteRenderer;
@@ -53,7 +53,7 @@ public class TypeProfessorText : MonoBehaviour
         //this is here for function to switch button interactivity
         someoneTalking = false;
 
-        audioSource = profObj.GetComponent<AudioSource>();
+        audioSourceProf = profObj.GetComponent<AudioSource>();
     }
 
 
@@ -68,7 +68,7 @@ public class TypeProfessorText : MonoBehaviour
                 spriteRenderer.enabled = false;
             }
 
-            if (speechTyped == false && currentSpeech != lastSpeech && panelColor.a == 0)
+            if (speechTyped == false && currentSpeech != lastSpeech && panelColor.a == 0 && textfield.text != "")
             {
                 //enables text and bubble rendering when people are talking
                 textRenderer.enabled = true;
@@ -81,26 +81,27 @@ public class TypeProfessorText : MonoBehaviour
 
                 textfield.text = "";
 		        StartCoroutine ("PlayText");
-
-                audioSource.Play();
             }
+
             
             
             
         //make button noninteractable when prof is talking
-        if (someoneTalking){
-            button.interactable = false;
-            //Debug.Log("Professor is talking");
-        }
-        else {
-            button.interactable = true;
-            //Debug.Log("Noone is talking");
-        }
+        //if (someoneTalking){
+         //   button.interactable = false;
+         //   Debug.Log("Professor is talking");
+        //}
+       // else {
+        //    button.interactable = true;
+         //   Debug.Log("Noone is talking");
+        //}
 
 	}
 
 	IEnumerator PlayText()
 	{
+        Debug.Log("Prof types");
+        audioSourceProf.Play();
 		foreach (char c in currentSpeech) 
 		{
             //trainAnim.SetBool("IsTalking", true);
@@ -109,6 +110,7 @@ public class TypeProfessorText : MonoBehaviour
 			textfield.text += c;
 			yield return new WaitForSeconds (TypeDelay);
 		}
+
         
     speechTyped = false;
     
