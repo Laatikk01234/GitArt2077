@@ -1027,12 +1027,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalGrades:
-  - A You amazing little butterly, i think might be in love with you
-  - B something more and you could be nearly as amazing as me
-  - C Less than satisfactory, enjoy your job at mcdonalds
-  - D who has paid for you to enter my school?
-  - F Get the fuck out of here!
-  - F- Get the fuuuuuuuuuuuuck out of here!
+  - 'After the wonderful grades you got from the school of auctioneering, many auction
+    houses want to hire you. You see great success as an auctioneer for multiple
+    businesses, and eventually establish your own prosperous auction house. You found
+    a loving family, everyone you meet acts nice to you and you are very famous.
+    You get on the Time 100 list, landing as the 84th Most influential person. You
+    die at the tender age of 96 with a smile on your face, knowing you lived your
+    life as you wanted to. Most importantly, you always did the best you could. 
+    Ending 1 out of 5 '
+  - 'After the wonderful grades you got from the school of auctioneering, many auction
+    houses want to hire you. You see great success as an auctioneer for multiple
+    businesses, and eventually establish your own prosperous auction house. You found
+    a loving family, everyone you meet acts nice to you and you are very famous.
+    You get on the Time 100 list, landing as the 84th Most influential person. You
+    die at the tender age of 96 with a smile on your face, knowing you lived your
+    life as you wanted to. Most importantly, you always did the best you could. 
+    Ending 1 out of 5 '
+  - "You pass the school of auctioneering. While the grades were not great, you afterwards
+    land a few well-paying gigs. At the age of 30, an auction house hires you, and
+    you spend the rest of your days working a stable job. You are content but not
+    happy, as you feel there\u2019s some spark missing. You feel a sense of inadequacy,
+    and after many visits to a psychiatrist, the reason becomes clear: You didn\u2019t
+    perform well enough at the auction school, and that made the rest of your life
+    terribly average.   Ending 2 out of 5 "
+  - "You pass the school of auctioneering. While the grades were not great, you afterwards
+    land a few well-paying gigs. At the age of 30, an auction house hires you, and
+    you spend the rest of your days working a stable job. You are content but not
+    happy, as you feel there\u2019s some spark missing. You feel a sense of inadequacy,
+    and after many visits to a psychiatrist, the reason becomes clear: You didn\u2019t
+    perform well enough at the auction school, and that made the rest of your life
+    terribly average.   Ending 2 out of 5 "
+  - "You fail the course. All your life up to that moment has been wasted. You don\u2019t
+    get accepted to any other schools, and your motivation is completely crushed.
+    You fall into alcoholism and depression. Your parents disown you, for they are
+    terribly disappointed. Your dark days end at the young age of 29. If anyone would
+    have known you at this point, the cause of death would be obvious: the lack of
+    art auctions.  Ending 3 out of 5 "
+  - "You fail the course. All your life up to that moment has been wasted. You don\u2019t
+    get accepted to any other schools, and your motivation is completely crushed.
+    You fall into alcoholism and depression. Your parents disown you, for they are
+    terribly disappointed. Your dark days end at the young age of 29. If anyone would
+    have known you at this point, the cause of death would be obvious: the lack of
+    art auctions.  Ending 3 out of 5 "
 --- !u!1 &220101318
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,8 +2215,7 @@ PrefabInstance:
       propertyPath: traineeSays
       value: "The artist has a preference of portraying living beings. Here\u2019s
         a loving pair of <i>humans</i> walking their exotic pets. The electromagnetic
-        harnesses on the animals calm them, preventing accidents. The picture reminds
-        us how far we\u2019ve come, connecting species with technology. "
+        harnesses on the animals calm them, preventing accidents. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5091,8 +5126,8 @@ PrefabInstance:
     - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
         type: 3}
       propertyPath: gradeA
-      value: Your final subgrade is A. The last day was a phenomenal success. I'm
-        very happy for you. I wish you the best in your future endeavors!
+      value: Your final subgrade is an A. The last day was a phenomenal success.
+        I'm very happy for you. I wish you the best in your future endeavors!
       objectReference: {fileID: 0}
     - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
         type: 3}
@@ -5115,8 +5150,8 @@ PrefabInstance:
     - target: {fileID: 7839824443692345466, guid: 6db43af3406d9ed44a9d122c1f24b459,
         type: 3}
       propertyPath: gradeF
-      value: 'You failed.The final day was a disgusting debacle. This isn''t the
-        career for you, child. '
+      value: 'You failed the final day. This was a disgusting debacle. This isn''t
+        the career for you, child. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6db43af3406d9ed44a9d122c1f24b459, type: 3}
@@ -5437,7 +5472,7 @@ PrefabInstance:
       value: "The artist works for a popular online retailer. They have painted a
         <i>landscape</i> that shows the company\u2019s delivery drone carrying a
         package towards a city. It\u2019s a <i>normal</i> subject, but the city\u2019s
-        dark colors and bright lights create a distressing atmosphere. "
+        shadows create a distressing atmosphere."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -8470,7 +8505,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Exactly! My child truly is a genius, isn't she?
+      value: Exactly! My child truly is a genius, yes?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}

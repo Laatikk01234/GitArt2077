@@ -828,24 +828,68 @@ MonoBehaviour:
   textlocation: {fileID: 1447319032}
   backgroundImage: {fileID: 0}
   extraSpriteLocation: {fileID: 1788831053}
-  hippyEndingText: I smoke weed
+  hippyEndingText: "Your experiences in the auction school teach you something important:
+    art is subjective, and beauty is in the eye of the beholder. Appraising art is
+    a dreadful thing, as mixing creative work with massive amounts of money is pure
+    decadence. Your parents are shocked when you tell them you\u2019re not going
+    to pursue the job of an auctioneer, but after long years of silence they eventually
+    come around. You find a new path when you become a successful art therapist.
+    You feel truly happy, for not only can you help people, but you can also appreciate
+    all art in the world.  Ending 4 out of 5 "
   hippyEndingSprite: {fileID: 21300000, guid: 3c0c903a8565a434bb75995e281c336b, type: 3}
-  fakeEndingText: Nothing is genuine art
+  fakeEndingText: "Your failure is not important. How can anyone say what\u2019s
+    real or not? Any art piece you see can be a fake, and any one that is deemed
+    a fake can actually be the real deal. The teacher was probably an alien impostor,
+    too. No one can be trusted, not even your own thoughts. You distance yourself
+    from all art, so that the demons can\u2019t touch you. You become an ascetic
+    hermit living in the mountains. The world is truly a dangerous place. At least
+    the voices keep you company.  Ending 5 out of 5 "
   fakeEndingSprite: {fileID: 21300000, guid: 0922b42710ff802499d787b4cfbd7dc6, type: 3}
   normalEndingSprite: {fileID: 21300000, guid: e3c184d7629844f46a48ef64d6e525bc, type: 3}
-  normalEndingA: Im awesome
+  normalEndingA: 'After the wonderful grades you got from the school of auctioneering,
+    many auction houses want to hire you. You see great success as an auctioneer
+    for multiple businesses, and eventually establish your own prosperous auction
+    house. You found a loving family, everyone you meet acts nice to you and you
+    are very famous. You get on the Time 100 list, landing as the 84th Most influential
+    person. You die at the tender age of 96 with a smile on your face, knowing you
+    lived your life as you wanted to. Most importantly, you always did the best you
+    could.  Ending 1 out of 5 '
   normalEndingASprite: {fileID: 21300000, guid: e3c184d7629844f46a48ef64d6e525bc,
     type: 3}
-  normalEndingB: Teacher is an asshole
+  normalEndingB: 'After the wonderful grades you got from the school of auctioneering,
+    many auction houses want to hire you. You see great success as an auctioneer
+    for multiple businesses, and eventually establish your own prosperous auction
+    house. You found a loving family, everyone you meet acts nice to you and you
+    are very famous. You get on the Time 100 list, landing as the 84th Most influential
+    person. You die at the tender age of 96 with a smile on your face, knowing you
+    lived your life as you wanted to. Most importantly, you always did the best you
+    could.  Ending 1 out of 5 '
   normalEndingBSprite: {fileID: 21300000, guid: 91140dfc315747640a2fe8db0fdd76f1,
     type: 3}
-  normalEndingC: Was i this bad?
+  normalEndingC: "You pass the school of auctioneering. While the grades were not
+    great, you afterwards land a few well-paying gigs. At the age of 30, an auction
+    house hires you, and you spend the rest of your days working a stable job. You
+    are content but not happy, as you feel there\u2019s some spark missing. You feel
+    a sense of inadequacy, and after many visits to a psychiatrist, the reason becomes
+    clear: You didn\u2019t perform well enough at the auction school, and that made
+    the rest of your life terribly average.   Ending 2 out of 5 "
   normalEndingCSprite: {fileID: 21300000, guid: 44669abd0fa28f74687df2d35d72f4b5,
     type: 3}
-  normalEndingD: Nooooo
+  normalEndingD: "You pass the school of auctioneering. While the grades were not
+    great, you afterwards land a few well-paying gigs. At the age of 30, an auction
+    house hires you, and you spend the rest of your days working a stable job. You
+    are content but not happy, as you feel there\u2019s some spark missing. You feel
+    a sense of inadequacy, and after many visits to a psychiatrist, the reason becomes
+    clear: You didn\u2019t perform well enough at the auction school, and that made
+    the rest of your life terribly average.   Ending 2 out of 5 "
   normalEndingDSprite: {fileID: 21300000, guid: cd0b47c35a7e7354baf40e9f4a78f2df,
     type: 3}
-  normalEndingF: F like Fuuuuck
+  normalEndingF: "You fail the course. All your life up to that moment has been wasted.
+    You don\u2019t get accepted to any other schools, and your motivation is completely
+    crushed. You fall into alcoholism and depression. Your parents disown you, for
+    they are terribly disappointed. Your dark days end at the young age of 29. If
+    anyone would have known you at this point, the cause of death would be obvious:
+    the lack of art auctions.  Ending 3 out of 5 "
   normalEndingFSprite: {fileID: 21300000, guid: 6666a32d54cd46a42aad7f343b28a14d,
     type: 3}
 --- !u!4 &1214307992
