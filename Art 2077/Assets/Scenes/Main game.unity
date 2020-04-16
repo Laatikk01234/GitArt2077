@@ -871,8 +871,8 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: "That\u2019s the same price I was thinking of! Good job. These kinds
-        of pieces line up an auctioneer's pockets nicely."
+      value: "That\u2019s the same price I was thinking of! These kinds of pieces
+        line up an auctioneer's pockets nicely."
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1248,9 +1248,9 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'The artist is not very well known. This piece is a portrait showing
-        a <i>person</i> with a mysterious smile. The thoughtful use of colors gives
-        a natural feel to the artwork. '
+      value: 'The artist is anonymous. This piece is a portrait showing a <i>person</i>
+        with a mysterious smile. The thoughtful use of colors gives a natural feel
+        to the artwork. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1482,10 +1482,10 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: "The artist prefers showcasing our artificial brethren, and this is
-        her most well-known work. There\u2019s an immaculately portrayed hand of
-        a <i>robot</i> that\u2019s being built. This is another <i>common event</i>,
-        something you can see on the TV every day. "
+      value: "The artist prefers showcasing our artificial brethren. There\u2019s
+        an immaculately portrayed hand of a <i>robot</i> that\u2019s being built.
+        This is another <i>common event</i>, something you can see on the TV every
+        day. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -1635,10 +1635,10 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: "The artist is known for making her own versions of old forgotten art.
-        It\u2019s a <i>contemporary</i> piece of an electronic cigar. With vaping
+      value: "The artist is known for making their own versions of old forgotten
+        art. It\u2019s a <i>contemporary</i> piece of an electronic cigar. With vaping
         being more popular than normal smoking, this work brings an old idea to the
-        present age. "
+        present age.  "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2177,14 +2177,15 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'This drawing is from a young girl who has no prior works. The technique
-        is very basic. However, there are lots of colors used and the characters
-        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      value: "The artist has a preference of portraying living beings. Here\u2019s
+        a loving pair of <i>humans</i> walking their exotic pets. The electromagnetic
+        harnesses on the animals calm them, preventing accidents. The picture reminds
+        us how far we\u2019ve come, connecting species with technology. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2195,7 +2196,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Exactly! My daughter truly is a genius, isn't she?
+      value: Yes. Animals and people should just bugger off from artworks.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2205,14 +2206,14 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: No, that's too much. Sappy pieces like this belong in the furnace, or
+        to buyers with poor taste.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: No, that's too much. Sappy pieces like this belong in the furnace, or
+        to buyers with poor taste.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2227,17 +2228,18 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      value: The only things fake in this painting are the relationships between
+        the owners and pets.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Me and Dad
+      value: Wild Walk
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: professorSays
-      value: 'Ah, here it is! This will be a true test of your skills. '
+      value: The tiger reminds me of a popular documentary series from my childhood.
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2317,9 +2319,9 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'This drawing is from a young girl who has no prior works. The technique
-        is very basic. However, there are lots of colors used and the characters
-        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      value: 'The artist creates pieces related to money in all its forms. This is
+        a <i>contemporary</i> piece of a modern ATM. The colors used set it apart
+        from typical art. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2335,7 +2337,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Exactly! My daughter truly is a genius, isn't she?
+      value: That's right! This is another important symbol of strength. I love it.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2345,14 +2347,14 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: What are you doing? Do you not understand the value of ATMs? They literally
+        print money!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: What are you doing? Do you not understand the value of ATMs? They literally
+        print money!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -2367,17 +2369,18 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      value: It's an authentic piece of art. Not even forgers would dare dishonor
+        an ATM.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Me and Dad
+      value: ATM
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: professorSays
-      value: 'Ah, here it is! This will be a true test of your skills. '
+      value: 'An ATM! This soothes me. '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3700,14 +3703,15 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'This drawing is from a young girl who has no prior works. The technique
-        is very basic. However, there are lots of colors used and the characters
-        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      value: 'This artist creates art related to different kinds of modern sports.
+        This piece shows a trio of <i>human</i> players playing segway football,
+        the most popular spectator sport in the US. It portrays an exciting situation
+        in the game. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3718,7 +3722,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Exactly! My daughter truly is a genius, isn't she?
+      value: That's the correct price. People and their sports, am I right?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3728,14 +3732,12 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: Way too high! Just look at this garbage. Ugh.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: Way too high! Just look at this garbage. Ugh.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3750,17 +3752,17 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      value: What's fake about this, exactly? You're crazy.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Me and Dad
+      value: SegwayBall
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: professorSays
-      value: 'Ah, here it is! This will be a true test of your skills. '
+      value: 'Our national sport in all its plebeian glory. '
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4479,14 +4481,15 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'This drawing is from a young girl who has no prior works. The technique
-        is very basic. However, there are lots of colors used and the characters
-        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      value: 'The artist is known for their imaginative sci-fi paintings. This is
+        a <i>landscape</i> that shows mechanical dinosaurs flying over a dark forest.
+        It may only be a matter of time before we reach a point where this scene
+        is possible in reality. '
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4497,7 +4500,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Exactly! My daughter truly is a genius, isn't she?
+      value: Mediocre indeed. Imagination does not automatically equal good art.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4507,14 +4510,12 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: You went too high. It is just a landscape, despite all the craziness.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: You went too high. It is just a landscape, despite all the craziness.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4529,17 +4530,17 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      value: Not true. I think art forgers would choose something less... bizarre.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Me and Dad
+      value: DIGIMON
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: professorSays
-      value: 'Ah, here it is! This will be a true test of your skills. '
+      value: ...Dinosaurs? Really now? I suppose the wings suit them.
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5203,8 +5204,8 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Yes, very cheap. The picture could be something great if not for this
-        subject matter...
+      value: Yes, very cheap. The picture could be something great if not for certain
+        elements...
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5433,14 +5434,15 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'This drawing is from a young girl who has no prior works. The technique
-        is very basic. However, there are lots of colors used and the characters
-        are surprisingly realistic. The man looks very <i>familiar</i>... '
+      value: "The artist works for a popular online retailer. They have painted a
+        <i>landscape</i> that shows the company\u2019s delivery drone carrying a
+        package towards a city. It\u2019s a <i>normal</i> subject, but the city\u2019s
+        dark colors and bright lights create a distressing atmosphere. "
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: pictureValue
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5451,7 +5453,8 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Exactly! My daughter truly is a genius, isn't she?
+      value: Right. It's just a delivery drone you can see every day. The background
+        is nice, I guess.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5461,14 +5464,14 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: Come on, the package in the picture is probably more expensive than
+        this piece!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
-        is much more valuable than that!
+      value: Come on, the package in the picture is probably more expensive than
+        this piece!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5483,17 +5486,18 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      value: Nope. Seems pretty authentic to me.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: artName
-      value: Me and Dad
+      value: Amazon Express
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: professorSays
-      value: 'Ah, here it is! This will be a true test of your skills. '
+      value: "Wonder if my own package will arrive soon. It\u2019s already been a
+        few minutes... "
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -6277,8 +6281,8 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: You got it right! Do you know the original Belgian work or was it a
-        just lucky guess?
+      value: You got it right! Do you know the original Belgian work or was it just
+        a lucky guess?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -6518,7 +6522,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'The artist is known for his tranquil pieces portraying natural environments.
+      value: 'The artist is known for their tranquil pieces portraying natural environments.
         This piece shows a <i>person</i> doing yoga during sunset. The beach is strongly
         colored by the setting sun. The work harkens back to the old days when yoga
         was still popular. '
@@ -8138,8 +8142,8 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: itsFake
-      value: Look, selling fakes for that much would certainly be profitable, but
-        that's not something we do.
+      value: Look, selling fakes might certainly be profitable, but that's not something
+        we do.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -8448,7 +8452,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: traineeSays
-      value: 'This drawing is from a young girl who has no prior works. The technique
+      value: 'This drawing is from a young child who has no prior works. The technique
         is very basic. However, there are lots of colors used and the characters
         are surprisingly realistic. The man looks very <i>familiar</i>... '
       objectReference: {fileID: 0}
@@ -8466,7 +8470,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: correct
-      value: Exactly! My daughter truly is a genius, isn't she?
+      value: Exactly! My child truly is a genius, isn't she?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -8476,13 +8480,13 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+      value: Are you trying to make me mad? I'm sure you see that my child's handiwork
         is much more valuable than that!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: Are you trying to make me mad? I'm sure you see that my daughter's handiwork
+      value: Are you trying to make me mad? I'm sure you see that my child's handiwork
         is much more valuable than that!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
@@ -8498,7 +8502,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: DID YOU JUST CALL MY DAUGHTER'S PAINTING A FAKE? OUT!
+      value: DID YOU JUST CALL MY CHILD'S PAINTING A FAKE? OUT!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -8508,7 +8512,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: professorSays
-      value: 'Ah, here it is! This will be a true test of your skills. '
+      value: Ah, here it is! This will be a true test of your skills.
       objectReference: {fileID: 0}
     - target: {fileID: 1982938192146295782, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -8625,7 +8629,7 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: notFake
-      value: Wrong! You won't just call every piece a fake, will you?
+      value: Wrong! You won't just call every piece a fake from now on, will you?
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
