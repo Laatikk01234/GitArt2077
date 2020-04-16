@@ -239,6 +239,7 @@ public class Gamelogic : MonoBehaviour
                 buttonText.text = "Start";
              
                 SwitchSpeechBubbleVisibility();
+                //StartCoroutine(WaitAndNextPainting());
                 NextPainting();
 
             }
@@ -250,11 +251,12 @@ public class Gamelogic : MonoBehaviour
 
                 if (listIndexAndArtpiecenumber == gamelength)
                 {
-                
-                    // Game over -> ending screen
-                    EndGame();
-                    //GiveFinalGrade();
-                }
+
+                // Game over -> ending screen
+                GiveSubGrade();
+                EndGame();
+                //GiveFinalGrade();
+            }
                 else if (listIndexAndArtpiecenumber % 5 == 0)
                 {
                     // week change 
@@ -263,6 +265,7 @@ public class Gamelogic : MonoBehaviour
                     //maybe position change - definitely slider away.
                     currentPicture.sprite = null;
                     GiveSubGrade();
+
 
                 }
                 else
@@ -330,7 +333,7 @@ public class Gamelogic : MonoBehaviour
         traineeText.text = currentArtinformation.traineeSays;
         yield return new WaitForSeconds(currentArtinformation.traineeSays.Length * 0.02F + 0.10F);
         professorText.text = currentArtinformation.professorSays;
-        yield return new WaitForSeconds(currentArtinformation.professorSays.Length * 0.02F + 0.10F);
+        yield return new WaitForSeconds(currentArtinformation.professorSays.Length * 0.03F + 0.20F);
         //waitForClick = false;
         confirm.interactable = true;
     }
@@ -441,8 +444,7 @@ public class Gamelogic : MonoBehaviour
         //waitForClick = true;
         //traineeText.text = currentArtinformation.traineeSays;
         //yield return new WaitForSeconds(currentArtinformation.traineeSays.Length * 0.02F + 0.10F);
-        yield return new WaitForSeconds(currentArtinformation.correct.Length * 0.1F + 2.0F);
-        Debug.Log(currentArtinformation.correct.Length* 0.02F + 0.10F);
+        yield return new WaitForSeconds(currentArtinformation.correct.Length * 0.05F + 0.2F);
         //waitForClick = false;
         confirm.interactable = true;
         }
