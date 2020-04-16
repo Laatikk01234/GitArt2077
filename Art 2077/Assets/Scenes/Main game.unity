@@ -5694,7 +5694,7 @@ GameObject:
   - component: {fileID: 1326479950}
   m_Layer: 0
   m_Name: DontDestroyOnLoad
-  m_TagString: Untagged
+  m_TagString: DontDestroyOnLoad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5715,6 +5715,7 @@ MonoBehaviour:
   hippyEnding: 0
   normalEnding: 0
   endingGrade: 0
+  Graded: 0
 --- !u!4 &1326479951
 Transform:
   m_ObjectHideFlags: 0

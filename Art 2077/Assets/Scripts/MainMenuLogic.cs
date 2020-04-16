@@ -7,8 +7,16 @@ public class MainMenuLogic : MonoBehaviour
 {
     public GameObject credits;
     private bool canClick;
+
+    private GameObject uh;
+
+    void Start(){
+        uh = GameObject.FindWithTag("DontDestroyOnLoad");
+    }
     private void Update()
     {
+        Destroy(uh);
+
         if (canClick == false)
         {
             if (Input.GetMouseButtonUp(0))

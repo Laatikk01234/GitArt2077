@@ -10,8 +10,10 @@ public class EndingInfo : MonoBehaviour
     public bool normalEnding = false;
     public int endingGrade;
 
+    public bool Graded = false;
+
     //endings here as variables?
-    public void Start()
+    public void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
     }
@@ -28,4 +30,15 @@ public class EndingInfo : MonoBehaviour
         }
         endingGrade = totalGrade;
     }
+
+    //void OnLevelWasLoaded(){
+     //   Debug.Log("onlevelwasloaded");
+     //   fakeEnding = false;
+     //   hippyEnding = false;
+    //    normalEnding = false;
+     //   endingGrade = 0;
+
+   // }
+
+    
 }
