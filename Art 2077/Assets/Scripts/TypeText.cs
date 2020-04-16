@@ -26,7 +26,7 @@ public class TypeText : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     public Button button;
-    private bool traineeTalking;
+    //private bool traineeTalking;
 
     void Awake (){
         
@@ -49,7 +49,7 @@ public class TypeText : MonoBehaviour
 
         audioSourceTrain = trainObj.GetComponent<AudioSource>();
 
-        traineeTalking = false;
+        //traineeTalking = false;
 
     }
 
@@ -99,7 +99,7 @@ public class TypeText : MonoBehaviour
 		foreach (char c in currentSpeech) 
 		{
             trainAnim.SetBool("IsTalking", true);
-            traineeTalking = true;
+            //traineeTalking = true;
             //profAnim.SetBool("IsTalkingToo", true);
 			textfield.text += c;
 			yield return new WaitForSeconds (TypeDelay);
@@ -109,7 +109,7 @@ public class TypeText : MonoBehaviour
 
     trainAnim.SetBool("IsTalking", false);
     //profAnim.SetBool("IsTalkingToo", false);
-    traineeTalking = false;
+    ///traineeTalking = false;
 	}
 
 }

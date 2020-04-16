@@ -51,7 +51,7 @@ public class TypeProfessorText : MonoBehaviour
         Color panelColor = panelImage.color;
 
         //this is here for function to switch button interactivity
-        someoneTalking = false;
+        //someoneTalking = false;
 
         audioSourceProf = profObj.GetComponent<AudioSource>();
     }
@@ -100,13 +100,13 @@ public class TypeProfessorText : MonoBehaviour
 
 	IEnumerator PlayText()
 	{
-        Debug.Log("Prof types");
+        //Debug.Log("Prof types");
         audioSourceProf.Play();
 		foreach (char c in currentSpeech) 
 		{
             //trainAnim.SetBool("IsTalking", true);
             profAnim.SetBool("IsTalkingToo", true);
-            someoneTalking = true;
+            //someoneTalking = true;
 			textfield.text += c;
 			yield return new WaitForSeconds (TypeDelay);
 		}
@@ -115,7 +115,7 @@ public class TypeProfessorText : MonoBehaviour
     speechTyped = false;
     
     profAnim.SetBool("IsTalkingToo", false);
-    someoneTalking = false;
+    //someoneTalking = false;
 	}
 
 }

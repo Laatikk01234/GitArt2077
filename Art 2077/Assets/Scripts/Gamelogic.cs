@@ -279,7 +279,6 @@ public class Gamelogic : MonoBehaviour
 
                     //Andrea 
                     anim.SetTrigger("ClickNext");
-                    anim.SetBool("DayStarted", false);
                     audioSource.PlayOneShot(curtainsSound);
                     //Andrea end
 
@@ -308,6 +307,7 @@ public class Gamelogic : MonoBehaviour
     IEnumerator WaitAndNextPainting()
     {
         //waitForClick = true;
+        anim.SetBool("DayStarted", false);
         confirm.interactable = false;
         //float halfOfAnimationMaybe = 0.5F;
         yield return new WaitForSeconds(0.5F);
