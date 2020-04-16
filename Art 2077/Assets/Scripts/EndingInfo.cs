@@ -15,10 +15,13 @@ public class EndingInfo : MonoBehaviour
     {
         DontDestroyOnLoad(this.gameObject);
     }
-    public void SetVariables(bool allfakes, bool started, int totalGrade)
+    public void SetVariables(int fakes, bool started, int totalGrade)
     {
-        fakeEnding = allfakes;
         hippyEnding = !started;
+        if (fakes >= 8)
+        {
+            fakeEnding = true;
+        }
         if (!fakeEnding && !hippyEnding)
         {
             normalEnding = true;

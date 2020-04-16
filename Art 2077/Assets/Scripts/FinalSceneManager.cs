@@ -38,16 +38,17 @@ public class FinalSceneManager : MonoBehaviour
         audioSource = this.GetComponent<AudioSource>();
 
 
-        if (ending.fakeEnding)
-        {
-            audioSource.Play();
-            textlocation.GetComponent<TextMeshProUGUI>().text = fakeEndingText;
-            extraSpriteLocation.GetComponent<SpriteRenderer>().sprite = fakeEndingSprite;
-        }
-        else if (ending.hippyEnding)
+        if (ending.hippyEnding)
         {
             textlocation.GetComponent<TextMeshProUGUI>().text = hippyEndingText;
             extraSpriteLocation.GetComponent<SpriteRenderer>().sprite = hippyEndingSprite;
+        }
+
+        else if (ending.fakeEnding)
+        {
+                audioSource.Play();
+                textlocation.GetComponent<TextMeshProUGUI>().text = fakeEndingText;
+                extraSpriteLocation.GetComponent<SpriteRenderer>().sprite = fakeEndingSprite;
         }
         else if (ending.endingGrade == 50)
         {

@@ -10,7 +10,7 @@ using UnityEngine.UI;
 public class Gamelogic : MonoBehaviour
 {
     public GameObject endingInfo;
-    private bool allfakes = true;
+    private int fakes = 0;
     private bool started = false;
 
     public GameObject subGradeObject;
@@ -348,6 +348,7 @@ public class Gamelogic : MonoBehaviour
         int picVal = currentArtinformation.pictureValue;
         if (sliderValueText.text == "Fake")
         {
+            fakes += 1;
             if (picVal == 0)
             {
                 ArtpieceGrade = 2;
@@ -361,7 +362,6 @@ public class Gamelogic : MonoBehaviour
         }
         else if (sliderValueText.text == "Cheap")
         {
-            allfakes = false;
             if (picVal == fake)
             {
                 professorText.text = currentArtinformation.itsFake;
@@ -385,7 +385,6 @@ public class Gamelogic : MonoBehaviour
         }
         else if (sliderValueText.text == "Mediocre")
         {
-            allfakes = false;
             if (picVal == fake)
             {
                 professorText.text = currentArtinformation.itsFake;
@@ -409,7 +408,6 @@ public class Gamelogic : MonoBehaviour
         }
         else if (sliderValueText.text == "Valuable")
         {
-            allfakes = false;
             if (picVal == fake)
             {
                 professorText.text = currentArtinformation.itsFake;
@@ -443,7 +441,7 @@ public class Gamelogic : MonoBehaviour
         //waitForClick = true;
         //traineeText.text = currentArtinformation.traineeSays;
         //yield return new WaitForSeconds(currentArtinformation.traineeSays.Length * 0.02F + 0.10F);
-        yield return new WaitForSeconds(currentArtinformation.correct.Length * 0.02F + 0.10F);
+        yield return new WaitForSeconds(currentArtinformation.correct.Length * 0.1F + 2.0F);
         Debug.Log(currentArtinformation.correct.Length* 0.02F + 0.10F);
         //waitForClick = false;
         confirm.interactable = true;
@@ -454,7 +452,7 @@ public class Gamelogic : MonoBehaviour
 
         //update ddol
         TotalGradeCounter();
-        endingInfo.GetComponent<EndingInfo>().SetVariables(allfakes, started, totalGrade);
+        endingInfo.GetComponent<EndingInfo>().SetVariables(fakes, started, totalGrade);
         SceneManager.LoadScene("Final Scene");
     }
 
