@@ -239,8 +239,13 @@ public class Gamelogic : MonoBehaviour
                 buttonText.text = "Start";
              
                 SwitchSpeechBubbleVisibility();
-                //StartCoroutine(WaitAndNextPainting());
-                NextPainting();
+                
+                StartCoroutine(WaitForSomeRandomTimeSecondEdition(3F));
+            traineeText.text = "";
+            professorText.text = "";
+                 StartCoroutine(WaitForSomeRandomTimeSecondEdition(1F));
+            StartCoroutine(WaitForSomeRandomTimeThirdEdition(1F));
+            //NextPainting();
 
             }
             else if (buttonText.text == "Next")
@@ -290,6 +295,16 @@ public class Gamelogic : MonoBehaviour
 
     }
 
+    IEnumerator WaitForSomeRandomTimeSecondEdition(float x)
+    {
+        yield return new  WaitForSeconds(x);
+    }
+    IEnumerator WaitForSomeRandomTimeThirdEdition(float x)
+    {
+        yield return new WaitForSeconds(5.3F);
+        NextPainting();
+    }
+
     IEnumerator WaitAndNextPainting()
     {
         //waitForClick = true;
@@ -333,8 +348,10 @@ public class Gamelogic : MonoBehaviour
         //waitForClick = true;
         traineeText.text = currentArtinformation.traineeSays;
         yield return new WaitForSeconds(currentArtinformation.traineeSays.Length * 0.02F + 0.10F);
+       // Debug.Log(Time.realtimeSinceStartup);
         professorText.text = currentArtinformation.professorSays;
-        yield return new WaitForSeconds(currentArtinformation.professorSays.Length * 0.03F + 0.20F);
+        yield return new WaitForSeconds(currentArtinformation.professorSays.Length * 0.05F + 0.1F);
+      //  Debug.Log(Time.realtimeSinceStartup);
         //waitForClick = false;
         confirm.interactable = true;
     }
@@ -445,7 +462,7 @@ public class Gamelogic : MonoBehaviour
         //waitForClick = true;
         //traineeText.text = currentArtinformation.traineeSays;
         //yield return new WaitForSeconds(currentArtinformation.traineeSays.Length * 0.02F + 0.10F);
-        yield return new WaitForSeconds(currentArtinformation.correct.Length * 0.05F + 0.2F);
+        yield return new WaitForSeconds(professorText.text.Length * 0.05F + 0.1F);
         //waitForClick = false;
         confirm.interactable = true;
         }
