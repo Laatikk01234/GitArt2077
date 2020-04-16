@@ -2242,24 +2242,24 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: No, that's too much. Sappy pieces like this belong in the furnace, or
-        to buyers with poor taste.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
       value: No, that's too much. Sappy pieces like this belong in the furnace, or
         to buyers with poor taste.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
-      propertyPath: tooHigh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
-        type: 3}
       propertyPath: wayTooHigh
-      value: 
+      value: No, that's too much. Sappy pieces like this belong in the furnace, or
+        to buyers with poor taste.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -3769,22 +3769,22 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: Way too high! Just look at this garbage. Ugh.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: Way too high! Just look at this garbage. Ugh.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: 
+      value: Way too high! Just look at this garbage. Ugh.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: 
+      value: Way too high! Just look at this garbage. Ugh.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -4547,22 +4547,24 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: You went too high. It is just a landscape, despite all the craziness.
+      value: A bit too low. I don't think this is completely tasteless, thanks to
+        the metallic parts of the beasts.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
-      value: You went too high. It is just a landscape, despite all the craziness.
+      value: A bit too low. I don't think this is completely tasteless, thanks to
+        the metallic parts of the beasts.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooHigh
-      value: 
+      value: You went too high. It is just a landscape, despite all the craziness.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooHigh
-      value: 
+      value: You went too high. It is just a landscape, despite all the craziness.
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
@@ -5501,24 +5503,24 @@ PrefabInstance:
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: tooLow
-      value: Come on, the package in the picture is probably more expensive than
-        this piece!
+      value: No, no, no. We have to make a living somehow!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
       propertyPath: wayTooLow
+      value: No, no, no. We have to make a living somehow!
+      objectReference: {fileID: 0}
+    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
+        type: 3}
+      propertyPath: tooHigh
       value: Come on, the package in the picture is probably more expensive than
         this piece!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
-      propertyPath: tooHigh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
-        type: 3}
       propertyPath: wayTooHigh
-      value: 
+      value: Come on, the package in the picture is probably more expensive than
+        this piece!
       objectReference: {fileID: 0}
     - target: {fileID: 188108063215052931, guid: 873cecc65bb62c346bfc163a4417f2b0,
         type: 3}
